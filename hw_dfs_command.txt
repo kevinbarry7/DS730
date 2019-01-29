@@ -1,0 +1,11 @@
+# problem_1
+
+hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/hadoop-streaming.jar -files hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/mapper1.py,hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/reducer1.py -input hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/orders.csv -output hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/output/ -mapper mapper1.py -reducer reducer1.py
+
+# problem_2
+
+hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/hadoop-streaming.jar -files hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/mapper2.py,hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/reducer2.py -input hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/input2.txt -output hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/output/ -mapper mapper2.py -reducer reducer2.py
+
+# problem_3
+
+hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/hadoop-streaming.jar -files hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/mapper3.py,hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/reducer3.py -input hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/input.txt -output hdfs://sandbox-hdp.hortonworks.com/user/maria_dev/project_1/output/ -mapper mapper3.py -reducer reducer3.py

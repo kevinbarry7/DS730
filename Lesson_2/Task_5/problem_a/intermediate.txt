@@ -1,0 +1,12 @@
+he:1
+el:1
+ll:1
+lo:1
+el:1
+ll:1
+la:1
+ba:1
+an:1
+na:1
+an:1
+na:1

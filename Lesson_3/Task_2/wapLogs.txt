@@ -1,0 +1,78 @@
+2019-01-24T22:47:57.054Z INFO Ensure step 3 jar file command-runner.jar
+2019-01-24T22:47:57.054Z INFO StepRunner: Created Runner for step 3
+INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar hadoop-streaming -files s3://aws-wordcount-eb/jobs/mapper.py,s3://aws-wordcount-eb/jobs/reducer.py -mapper mapper.py -reducer reducer.py -input s3://aws-wordcount-eb/input/ -output s3://aws-wordcount-eb/output/'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-FQB17LCWBDO3/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-95-12
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-FQB17LCWBDO3
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-FQB17LCWBDO3/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-FQB17LCWBDO3/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-FQB17LCWBDO3
+INFO ProcessRunner started child process 19462 :
+hadoop   19462  4951  0 22:47 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar hadoop-streaming -files s3://aws-wordcount-eb/jobs/mapper.py,s3://aws-wordcount-eb/jobs/reducer.py -mapper mapper.py -reducer reducer.py -input s3://aws-wordcount-eb/input/ -output s3://aws-wordcount-eb/output/
+2019-01-24T22:48:01.079Z INFO HadoopJarStepRunner.Runner: startRun() called for s-FQB17LCWBDO3 Child Pid: 19462
+INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+
+
+2019-01-24 22:48:06,354 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-95-12.ec2.internal/172.31.95.12:8032
+2019-01-24 22:48:06,534 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-95-12.ec2.internal/172.31.95.12:8032
+2019-01-24 22:48:06,795 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://aws-wordcount-eb/jobs/mapper.py' for reading
+2019-01-24 22:48:07,016 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://aws-wordcount-eb/jobs/reducer.py' for reading
+2019-01-24 22:48:07,132 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2019-01-24 22:48:07,134 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev bab859f34a291cb7b3f4e724b59e1b48af69016b]
+2019-01-24 22:48:07,254 INFO org.apache.hadoop.mapred.FileInputFormat (main): Total input files to process : 1
+2019-01-24 22:48:07,333 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:16
+2019-01-24 22:48:07,482 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1548369497407_0002
+2019-01-24 22:48:08,061 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1548369497407_0002
+2019-01-24 22:48:08,156 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-95-12.ec2.internal:20888/proxy/application_1548369497407_0002/
+2019-01-24 22:48:08,159 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1548369497407_0002
+2019-01-24 22:48:16,404 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1548369497407_0002 running in uber mode : false
+2019-01-24 22:48:16,405 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2019-01-24 22:48:39,701 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2019-01-24 22:48:42,735 INFO org.apache.hadoop.mapreduce.Job (main):  map 13% reduce 0%
+2019-01-24 22:48:47,774 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2019-01-24 22:48:49,785 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2019-01-24 22:48:50,794 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2019-01-24 22:48:52,813 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 0%
+2019-01-24 22:48:53,819 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 0%
+2019-01-24 22:48:55,830 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 0%

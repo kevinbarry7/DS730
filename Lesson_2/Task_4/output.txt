@@ -1,0 +1,188 @@
+TASK 1: Step 5
+
+19/01/22 01:23:52 INFO fs.TestDFSIO: ----- TestDFSIO ----- : write
+19/01/22 01:23:52 INFO fs.TestDFSIO:            Date & time: Tue Jan 22 01:23:52 UTC 2019
+19/01/22 01:23:52 INFO fs.TestDFSIO:        Number of files: 10
+19/01/22 01:23:52 INFO fs.TestDFSIO: Total MBytes processed: 500.0
+19/01/22 01:23:52 INFO fs.TestDFSIO:      Throughput mb/sec: 13.466925231631114
+19/01/22 01:23:52 INFO fs.TestDFSIO: Average IO rate mb/sec: 20.4960994720459
+19/01/22 01:23:52 INFO fs.TestDFSIO:  IO rate std deviation: 12.535505986526823
+19/01/22 01:23:52 INFO fs.TestDFSIO:     Test exec time sec: 77.774
+
+TASK 1: Step 8
+
+19/01/22 02:33:59 INFO fs.TestDFSIO: ----- TestDFSIO ----- : read
+19/01/22 02:33:59 INFO fs.TestDFSIO:            Date & time: Tue Jan 22 02:33:59 UTC 2019
+19/01/22 02:33:59 INFO fs.TestDFSIO:        Number of files: 10
+19/01/22 02:33:59 INFO fs.TestDFSIO: Total MBytes processed: 500.0
+19/01/22 02:33:59 INFO fs.TestDFSIO:      Throughput mb/sec: 637.7551020408164
+19/01/22 02:33:59 INFO fs.TestDFSIO: Average IO rate mb/sec: 904.13671875
+19/01/22 02:33:59 INFO fs.TestDFSIO:  IO rate std deviation: 518.5771821127337
+19/01/22 02:33:59 INFO fs.TestDFSIO:     Test exec time sec: 28.271
+
+TASK 2:
+
+19/01/22 02:37:51 INFO mapreduce.Job: Counters: 31
+        File System Counters
+                FILE: Number of bytes read=0
+                FILE: Number of bytes written=305272
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=167
+                HDFS: Number of bytes written=2000000000
+                HDFS: Number of read operations=8
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=4
+        Job Counters
+                Launched map tasks=2
+                Other local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=156117
+                Total time spent by all reduces in occupied slots (ms)=0
+                Total time spent by all map tasks (ms)=156117
+                Total vcore-milliseconds taken by all map tasks=156117
+                Total megabyte-milliseconds taken by all map tasks=39029250
+        Map-Reduce Framework
+                Map input records=20000000
+                Map output records=20000000
+                Input split bytes=167
+                Spilled Records=0
+                Failed Shuffles=0
+                Merged Map outputs=0
+                GC time elapsed (ms)=750
+                CPU time spent (ms)=31150
+                Physical memory (bytes) snapshot=303132672
+                Virtual memory (bytes) snapshot=4263743488
+                Total committed heap usage (bytes)=106954752
+        org.apache.hadoop.examples.terasort.TeraGen$Counters
+                CHECKSUM=42957274697559007
+        File Input Format Counters
+                Bytes Read=0
+        File Output Format Counters
+                Bytes Written=2000000000
+
+
+[maria_dev@sandbox-hdp ~]$ hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /user/maria_dev/teradata /user/maria_dev/
+sorted-data
+19/01/22 02:39:40 INFO terasort.TeraSort: starting
+19/01/22 02:39:41 INFO input.FileInputFormat: Total input paths to process : 2
+Spent 165ms computing base-splits.
+Spent 3ms computing TeraScheduler splits.
+Computing input splits took 169ms
+Sampling 10 splits of 16
+Making 1 from 100000 sampled records
+Computing parititions took 459ms
+Spent 630ms computing partitions.
+19/01/22 02:39:42 INFO client.RMProxy: Connecting to ResourceManager at sandbox-hdp.hortonworks.com/172.17.0.2:8032
+19/01/22 02:39:42 INFO client.AHSProxy: Connecting to Application History server at sandbox-hdp.hortonworks.com/172.17.0.2:10200
+19/01/22 02:39:43 INFO mapreduce.JobSubmitter: number of splits:16
+19/01/22 02:39:43 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1548120052377_0004
+19/01/22 02:39:43 INFO impl.YarnClientImpl: Submitted application application_1548120052377_0004
+19/01/22 02:39:43 INFO mapreduce.Job: The url to track the job: http://sandbox-hdp.hortonworks.com:8088/proxy/application_1548120052377_0004/
+19/01/22 02:39:43 INFO mapreduce.Job: Running job: job_1548120052377_0004
+19/01/22 02:39:49 INFO mapreduce.Job: Job job_1548120052377_0004 running in uber mode : false
+19/01/22 02:39:49 INFO mapreduce.Job:  map 0% reduce 0%
+19/01/22 02:40:10 INFO mapreduce.Job:  map 7% reduce 0%
+19/01/22 02:40:11 INFO mapreduce.Job:  map 15% reduce 0%
+19/01/22 02:40:12 INFO mapreduce.Job:  map 20% reduce 0%
+19/01/22 02:40:13 INFO mapreduce.Job:  map 23% reduce 0%
+19/01/22 02:40:14 INFO mapreduce.Job:  map 31% reduce 0%
+19/01/22 02:40:15 INFO mapreduce.Job:  map 33% reduce 0%
+19/01/22 02:40:17 INFO mapreduce.Job:  map 34% reduce 0%
+19/01/22 02:40:18 INFO mapreduce.Job:  map 37% reduce 0%
+19/01/22 02:40:20 INFO mapreduce.Job:  map 43% reduce 0%
+19/01/22 02:40:21 INFO mapreduce.Job:  map 44% reduce 0%
+19/01/22 02:40:30 INFO mapreduce.Job:  map 45% reduce 0%
+19/01/22 02:40:48 INFO mapreduce.Job:  map 46% reduce 0%
+19/01/22 02:40:53 INFO mapreduce.Job:  map 57% reduce 0%
+19/01/22 02:40:54 INFO mapreduce.Job:  map 58% reduce 0%
+19/01/22 02:40:56 INFO mapreduce.Job:  map 60% reduce 0%
+19/01/22 02:41:53 INFO mapreduce.Job:  map 65% reduce 0%
+19/01/22 02:41:54 INFO mapreduce.Job:  map 68% reduce 0%
+19/01/22 02:41:55 INFO mapreduce.Job:  map 69% reduce 0%
+19/01/22 02:42:03 INFO mapreduce.Job:  map 71% reduce 0%
+19/01/22 02:42:04 INFO mapreduce.Job:  map 82% reduce 2%
+19/01/22 02:42:16 INFO mapreduce.Job:  map 82% reduce 4%
+19/01/22 02:42:18 INFO mapreduce.Job:  map 83% reduce 4%
+19/01/22 02:42:32 INFO mapreduce.Job:  map 83% reduce 6%
+19/01/22 02:42:35 INFO mapreduce.Job:  map 85% reduce 13%
+19/01/22 02:42:38 INFO mapreduce.Job:  map 86% reduce 13%
+19/01/22 02:42:41 INFO mapreduce.Job:  map 87% reduce 13%
+19/01/22 02:42:56 INFO mapreduce.Job:  map 87% reduce 15%
+19/01/22 02:43:14 INFO mapreduce.Job:  map 87% reduce 19%
+19/01/22 02:43:15 INFO mapreduce.Job:  map 89% reduce 19%
+19/01/22 02:43:17 INFO mapreduce.Job:  map 92% reduce 21%
+19/01/22 02:43:20 INFO mapreduce.Job:  map 93% reduce 21%
+19/01/22 02:43:23 INFO mapreduce.Job:  map 94% reduce 21%
+19/01/22 02:43:32 INFO mapreduce.Job:  map 94% reduce 23%
+19/01/22 02:43:52 INFO mapreduce.Job:  map 96% reduce 23%
+19/01/22 02:43:53 INFO mapreduce.Job:  map 96% reduce 27%
+19/01/22 02:43:57 INFO mapreduce.Job:  map 100% reduce 29%
+19/01/22 02:44:31 INFO mapreduce.Job:  map 100% reduce 67%
+19/01/22 02:44:34 INFO mapreduce.Job:  map 100% reduce 71%
+19/01/22 02:44:37 INFO mapreduce.Job:  map 100% reduce 76%
+19/01/22 02:44:46 INFO mapreduce.Job:  map 100% reduce 78%
+19/01/22 02:45:13 INFO mapreduce.Job:  map 100% reduce 84%
+19/01/22 02:45:16 INFO mapreduce.Job:  map 100% reduce 87%
+19/01/22 02:45:26 INFO mapreduce.Job:  map 100% reduce 91%
+19/01/22 02:45:35 INFO mapreduce.Job:  map 100% reduce 94%
+19/01/22 02:45:56 INFO mapreduce.Job:  map 100% reduce 96%
+19/01/22 02:45:59 INFO mapreduce.Job:  map 100% reduce 99%
+19/01/22 02:46:00 INFO mapreduce.Job:  map 100% reduce 100%
+19/01/22 02:46:01 INFO mapreduce.Job: Job job_1548120052377_0004 completed successfully
+19/01/22 02:46:01 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=4160000456
+                FILE: Number of bytes written=6242619642
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2000002256
+                HDFS: Number of bytes written=2000000000
+                HDFS: Number of read operations=51
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=16
+                Launched reduce tasks=1
+                Data-local map tasks=16
+                Total time spent by all maps in occupied slots (ms)=1683641
+                Total time spent by all reduces in occupied slots (ms)=283782
+                Total time spent by all map tasks (ms)=1683641
+                Total time spent by all reduce tasks (ms)=283782
+                Total vcore-milliseconds taken by all map tasks=1683641
+                Total vcore-milliseconds taken by all reduce tasks=283782
+                Total megabyte-milliseconds taken by all map tasks=420910250
+                Total megabyte-milliseconds taken by all reduce tasks=70945500
+        Map-Reduce Framework
+                Map input records=20000000
+                Map output records=20000000
+                Map output bytes=2040000000
+                Map output materialized bytes=2080000096
+                Input split bytes=2256
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=20000000
+                Reduce shuffle bytes=2080000096
+                Reduce input records=20000000
+                Reduce output records=20000000
+                Spilled Records=60000000
+                Shuffled Maps =16
+                Failed Shuffles=0
+                Merged Map outputs=16
+                GC time elapsed (ms)=16063
+                CPU time spent (ms)=143330
+                Physical memory (bytes) snapshot=3462107136
+                Virtual memory (bytes) snapshot=36221059072
+                Total committed heap usage (bytes)=1998061568
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=2000000000
+        File Output Format Counters
+                Bytes Written=2000000000    

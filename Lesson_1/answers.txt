@@ -1,0 +1,9 @@
+# Eli Bolotin
+# DS730 Lesson 1
+# Answers
+
+1. Take the average of all of the wind speeds for March, 2006. Which city had the closest wind speed to 8.30 mph?
+	- Answer: PQR had the closest wind speed to 8.30 mph (nearly exactly).
+
+2. Take the average of all of the temperatures for 2006. Which city had the closest temperature, in fahrenheit, to 49.65.
+	- Answer: KLM had the closest temperature to 49.65 F (nearly exactly).
