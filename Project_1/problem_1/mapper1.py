@@ -25,6 +25,6 @@ def main(argv):
         amount_spent = quantity * unitprice
         # if customer_id is not empty and invoice_test is false, print output
         if customer_id != '' and invoice_test is False:
-            print('%s\t%s\t%s\t%s' % (month, country, customer_id, amount_spent))
+            print('%s,%s,%s\t\t\t%s' % (month, country, customer_id, amount_spent))
 if __name__ == "__main__":
     main(sys.argv)
