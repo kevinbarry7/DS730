@@ -1,0 +1,11 @@
+batters_data = LOAD 's3://aws-pigscripts-eb/InputFolder/Batting.csv' using PigStorage(',');
+batters = FOREACH batters_data GENERATE $0 AS id, $1 AS year;
+grouped_by_year = GROUP batters BY (year, id);
+teams_per_year = FOREACH grouped_by_year GENERATE FLATTEN(group) AS (year, id), COUNT(batters.id) AS num_teams;
+grouped_teams_per_year = GROUP teams_per_year BY year;
+max_teams_per_year = FOREACH grouped_teams_per_year GENERATE group AS year, MAX(teams_per_year.num_teams) AS max_num_teams;
+player_most_teams_grouped = GROUP max_teams_per_year ALL;
+max_team_switches = FOREACH player_most_teams_grouped GENERATE MAX(max_teams_per_year.max_num_teams) AS max_num_teams;
+player_id_filter = FILTER teams_per_year BY num_teams == max_team_switches.max_num_teams;
+player_id = FOREACH player_id_filter GENERATE $1 AS id;
+DUMP player_id;

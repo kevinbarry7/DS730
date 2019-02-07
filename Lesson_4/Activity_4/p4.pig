@@ -1,0 +1,14 @@
+batters = LOAD 's3://aws-pigscripts-eb/InputFolder/Master.csv' using PigStorage(',');
+filtered_players = FILTER batters BY ($2 == 10) AND ($7 == 2011) AND ($18 == 'R');
+player_table = FOREACH filtered_players GENERATE $0 AS id;
+hits_data = LOAD 's3://aws-pigscripts-eb/InputFolder/Batting.csv' using PigStorage(',');
+hits_table = FOREACH hits_data GENERATE $0 AS id, $7 AS hits;
+joined_table = JOIN player_table BY id, hits_table BY id;
+complete_data = FOREACH joined_table GENERATE $0 AS id, $2 AS hits;
+grouped_data = GROUP complete_data BY id;
+sum_hits = FOREACH grouped_data GENERATE group, SUM(complete_data.hits) AS sum_hits;
+sum_hits_grouped = GROUP sum_hits ALL;
+max_hits = FOREACH sum_hits_grouped GENERATE MAX(sum_hits.sum_hits) AS max_hits;
+max_hits_player = FILTER sum_hits BY sum_hits == max_hits.max_hits;
+max_hits_player_id = FOREACH max_hits_player GENERATE $0 AS id;
+DUMP max_hits_player_id;

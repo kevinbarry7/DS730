@@ -4,8 +4,92 @@
 		"selected_items":
 		[
 			[
+				"sum",
+				"sum_hits"
+			],
+			[
+				"sum_",
+				"sum_hits_grouped"
+			],
+			[
+				"hits",
+				"hits_data"
+			],
+			[
+				"max",
+				"max_xb_hits"
+			],
+			[
+				"xb",
+				"xb_hits_grouped"
+			],
+			[
+				"player_",
+				"player_table"
+			],
+			[
+				"play",
+				"player_table"
+			],
+			[
+				"player",
+				"player_id_filter"
+			],
+			[
+				"join",
+				"joined_data"
+			],
+			[
+				"fir",
+				"first_person_connections"
+			],
+			[
+				"first",
+				"first_person_id"
+			],
+			[
+				"secon",
+				"second_person_connections"
+			],
+			[
+				"second",
+				"second_person_id"
+			],
+			[
+				"seond_person",
+				"second_person_id"
+			],
+			[
+				"first_person",
+				"first_person_connections"
+			],
+			[
+				"sec",
+				"second_person_connections"
+			],
+			[
+				"people",
+				"people_lists"
+			],
+			[
+				"might",
+				"might_know"
+			],
+			[
+				"second_pers",
+				"second_person_id"
+			],
+			[
+				"first_per",
+				"first_person_id"
+			],
+			[
+				"firs",
+				"first_person_id"
+			],
+			[
 				"prev",
-				"prev_amount_spent"
+				"prev_customer_id"
 			],
 			[
 				"curre",
@@ -56,20 +140,12 @@
 				"invoice_test"
 			],
 			[
-				"max",
-				"max_people"
-			],
-			[
 				"an",
 				"another_list"
 			],
 			[
 				"m",
 				"might_know"
-			],
-			[
-				"first",
-				"first_person"
 			],
 			[
 				"main",
@@ -438,119 +514,19 @@
 			[
 				"card",
 				"cards"
-			],
-			[
-				"avg",
-				"avg_rating"
-			],
-			[
-				"avg_",
-				"avg_length"
-			],
-			[
-				"num",
-				"numhelpful"
-			],
-			[
-				"all",
-				"all_reviews"
-			],
-			[
-				"field",
-				"field_list"
-			],
-			[
-				"letter_fre",
-				"letter_freq_new"
-			],
-			[
-				"letter",
-				"letter_max_freq"
-			],
-			[
-				"let",
-				"letter_freq"
-			],
-			[
-				"alpha",
-				"alpha_upper"
-			],
-			[
-				"length",
-				"length_detail"
-			],
-			[
-				"sentence",
-				"sentence_num"
-			],
-			[
-				"waitin",
-				"waiting_time_list"
-			],
-			[
-				"format",
-				"formatted_time"
-			],
-			[
-				"input",
-				"input_str"
-			],
-			[
-				"inst",
-				"input_str"
-			],
-			[
-				"print",
-				"print_output"
-			],
-			[
-				"ign",
-				"ignore_case"
-			],
-			[
-				"lett",
-				"letter_count"
-			],
-			[
-				"leter",
-				"letter_stats"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "hw_dfs_command.txt",
+			"file": "Project_2/P1.pig",
 			"settings":
 			{
-				"buffer_size": 1286,
+				"buffer_size": 1077,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Project_1/problem_3/mapper3.py",
-			"settings":
-			{
-				"buffer_size": 711,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 50",
-			"settings":
-			{
-				"buffer_size": 133,
 				"line_ending": "Unix",
-				"name": "hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/ha"
+				"name": "batters = LOAD 's3://aws-pigscripts-eb/InputFolder"
 			}
 		}
 	],
@@ -585,6 +561,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"vi",
 				"Virtualenv: Activate"
@@ -644,10 +624,6 @@
 			[
 				"acti",
 				"Virtualenv: Activate"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"virtualenv",
@@ -710,42 +686,63 @@
 	"expanded_folders":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1/output"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p2.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p3.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_1/problem_1.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/answers.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_1/answers.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_3/problem_3.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_2/problem_2.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/comp.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.pig.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/part-v002-o000-r-00000_3.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1_1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/baseball.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/sorted.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/input.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/baseball.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/hw_dfs_command.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/part-00000.dms",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1/output/part-00000.dms",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_5.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/intermediate.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_3/TestStateless.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/output.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/input.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/user/maria_dev/project_1/output/part_sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/hw_dfs_command.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/hdfs_test.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/mapper2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/hdfs_test.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/hdfs_test.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/sorted.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2_01.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/input2.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/test.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/input.txt",
@@ -822,32 +819,7 @@
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Program_README.md",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Program_Workflow.txt",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/profanity_list.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Sample_2/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Sample_1/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Program_Workflow.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/test_misc_code.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Program_Workflow.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/ProcessTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/StreamTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/spinner.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/ProgramDecorator.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/ProgramHandler.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/RunProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/GetTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/RunProgram_v2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Run_G1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/class_version/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Run_G2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/run_group2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/run_group1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/exec_group1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/executable_group1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/executable_group2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/class_version/Program_Workflow_v2.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Program_Workflow_v2.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/TwitterAnalysis.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/exec2.py"
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Sample_2/README.md"
 	],
 	"find":
 	{
@@ -865,6 +837,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"huelsfr01",
+			"unspecified",
 			"= ",
 			"EOD"
 		],
@@ -884,136 +858,37 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "hw_dfs_command.txt",
+					"file": "Project_2/P1.pig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1286,
+						"buffer_size": 1077,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12,
-								12
+								1077,
+								1077
 							]
 						],
 						"settings":
 						{
+							"auto_name": "batters = LOAD 's3://aws-pigscripts-eb/InputFolder",
 							"origPos":
 							[
 								0.0,
 								0.0
 							],
 							"syncScroll": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Project_1/problem_3/mapper3.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								133
-							]
-						],
-						"settings":
-						{
-							"auto_name": "hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/ha",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Apache Pig/Pig.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1063,7 +938,7 @@
 		"rows":
 		[
 			0.0,
-			0.562188712094,
+			0.568931577081,
 			1.0
 		]
 	},

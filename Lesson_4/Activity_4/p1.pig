@@ -1,0 +1,12 @@
+batters = LOAD 's3://aws-pigscripts-eb/InputFolder/Batting.csv' using PigStorage(',');
+filtered_players = FILTER batters BY $1 == 2005 AND $9 > 5;
+filtered_player_ids = FOREACH filtered_players GENERATE $0 AS id;
+player_weight = LOAD 's3://aws-pigscripts-eb/InputFolder/Master.csv' using PigStorage(',');
+master_data = FOREACH player_weight GENERATE $0 AS id, $16 AS weight;
+joined_data = JOIN filtered_player_ids BY id, master_data BY id;
+complete_data = FOREACH joined_data GENERATE $0 AS id, $2 AS weight;
+grouped_data = GROUP complete_data ALL;
+max_weight = FOREACH grouped_data GENERATE MAX(complete_data.weight) AS weight;
+heaviest_player = FILTER complete_data BY weight == max_weight.weight;
+heaviest_player_id = FOREACH heaviest_player GENERATE $0 AS id;
+DUMP heaviest_player_id;

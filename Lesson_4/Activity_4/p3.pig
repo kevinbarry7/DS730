@@ -1,0 +1,10 @@
+batters = LOAD 's3://aws-pigscripts-eb/InputFolder/Batting.csv' using PigStorage(',');
+filtered_players = FILTER batters BY ($1 >= 1980) AND ($1 <= 1989);
+player_table = FOREACH filtered_players GENERATE $0 AS id, $8 + $9 + $10 AS XB;
+player_xb_grouped = GROUP player_table BY id;
+xb_hits = FOREACH player_xb_grouped GENERATE group AS id, SUM(player_table.XB) AS sum_xb_hits;
+xb_hits_grouped = GROUP xb_hits ALL;
+max_xb_hits = FOREACH xb_hits_grouped GENERATE MAX(xb_hits.sum_xb_hits) AS max_xb_hits;
+max_hitter = FILTER xb_hits BY sum_xb_hits == max_xb_hits.max_xb_hits;
+max_hitter_id = FOREACH max_hitter GENERATE $0 AS id;
+DUMP max_hitter_id;
