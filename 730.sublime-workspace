@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"joined",
+				"joined_tables_exp"
+			],
+			[
+				"birth",
+				"birthstate"
+			],
+			[
+				"joinde",
+				"joined_data"
+			],
+			[
+				"filtered",
+				"filtered_master"
+			],
+			[
+				"grouped_",
+				"grouped_result"
+			],
+			[
+				"master_",
+				"master_table"
+			],
+			[
 				"sum",
 				"sum_hits"
 			],
@@ -308,10 +332,6 @@
 				"full_tweets"
 			],
 			[
-				"filtered",
-				"filtered_tweets"
-			],
-			[
 				"follow",
 				"followers_count"
 			],
@@ -494,39 +514,17 @@
 			[
 				"most",
 				"most_common_color"
-			],
-			[
-				"color_",
-				"color_equality"
-			],
-			[
-				"sorted",
-				"sorted_list"
-			],
-			[
-				"sort",
-				"sorted_dict"
-			],
-			[
-				"rarity",
-				"rarity_levels"
-			],
-			[
-				"card",
-				"cards"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Project_2/P1.pig",
+			"file": "/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_13/.ssh/id_rsa",
 			"settings":
 			{
-				"buffer_size": 1077,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "batters = LOAD 's3://aws-pigscripts-eb/InputFolder"
+				"buffer_size": 3434,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -686,12 +684,20 @@
 	"expanded_folders":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/pigtest"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/answers.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P8.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P1.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P7.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P4.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P6.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P5.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P3.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P2.pig",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p2.pig",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1.pig",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p3.pig",
@@ -810,16 +816,7 @@
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/eb_twitter_creds.py",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/test_misc_code.py",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Regex_note.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Twitter_Sentiment_Analyzer/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/test_misc_code.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Project_README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/ProcessTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/StreamTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Program_README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Program_Workflow.txt",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/profanity_list.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Sample_2/README.md"
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Twitter_Sentiment_Analyzer/README.md"
 	],
 	"find":
 	{
@@ -863,32 +860,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Project_2/P1.pig",
+					"file": "/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_13/.ssh/id_rsa",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1077,
+						"buffer_size": 3434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1077,
-								1077
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "batters = LOAD 's3://aws-pigscripts-eb/InputFolder",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Apache Pig/Pig.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -938,7 +927,7 @@
 		"rows":
 		[
 			0.0,
-			0.568931577081,
+			0.545009239281,
 			1.0
 		]
 	},
