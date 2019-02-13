@@ -1,0 +1,10 @@
+fielding_data = LOAD 'hdfs:/user/maria_dev/pigtest/Fielding.csv' using PigStorage(',');
+fielding_table = FOREACH fielding_data GENERATE $1 AS year, $2 AS team, $10 AS errors;
+fielding_table = FILTER fielding_table BY year > 1950 AND errors IS NOT NULL;
+ft_group = GROUP fielding_table BY (team, year);
+team_sum_errors = FOREACH ft_group GENERATE group, SUM(fielding_table.errors) AS sum_errors;
+team_sum_errors_group = GROUP team_sum_errors ALL;
+team_max_errors = FOREACH team_sum_errors_group GENERATE MAX(team_sum_errors.sum_errors) AS max_errors;
+max_errors_filtered = FILTER team_sum_errors BY sum_errors == team_max_errors.max_errors;
+result = FOREACH max_errors_filtered GENERATE group.team;
+DUMP result;

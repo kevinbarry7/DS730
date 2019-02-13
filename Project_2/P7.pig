@@ -1,0 +1,14 @@
+batters_data = LOAD 'hdfs:/user/maria_dev/pigtest/Batting.csv' using PigStorage(',');
+master_data = LOAD 'hdfs:/user/maria_dev/pigtest/Master.csv' using PigStorage(',');
+masters_table = FOREACH master_data GENERATE $0 AS id, $5 AS birthstate, $6  AS birthcity;
+masters_table = FILTER masters_table BY birthstate IS NOT NULL AND birthcity IS NOT NULL AND (STARTSWITH(birthcity, 'A') OR STARTSWITH(birthcity, 'E') OR STARTSWITH(birthcity, 'I') OR STARTSWITH(birthcity, 'O') OR STARTSWITH(birthcity, 'U'));
+batters_table = FOREACH batters_data GENERATE $0 AS id, (int)$8 AS two, (int)$9 AS three;
+batters_table = FILTER batters_table BY two IS NOT NULL AND three IS NOT NULL;
+joined_tables = JOIN masters_table BY id, batters_table BY id;
+joined_tables_exp = FOREACH joined_tables GENERATE birthcity, birthstate, two, three;
+grouped_tables = GROUP joined_tables_exp BY (birthcity, birthstate);
+summary = FOREACH grouped_tables GENERATE group AS city_state, SUM(joined_tables_exp.two)+SUM(joined_tables_exp.three) AS sum_hits;
+order_summary = ORDER summary BY sum_hits DESC;
+top_5 = LIMIT order_summary 5;
+city_state_summary = FOREACH top_5 GENERATE city_state;
+DUMP city_state_summary;

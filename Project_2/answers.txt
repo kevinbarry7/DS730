@@ -1,0 +1,35 @@
+Activity 4 - Answers
+* Answers are in the correct order according to the question in the assignment instructions.
+
+Problem #1 -----
+(Mobile)
+
+Problem #2 -----
+({((8,1979)),((11,1968))})
+({((9,1983))})       
+({((2,1983)),((10,1982))})
+
+Problem #3 -----
+({(Eddie Gaedel)})
+({(Jon Rauch)})
+
+Problem #4 -----
+(NYN)
+
+Problem #5 -----
+((russebi01,LAN))
+
+Problem #6 -----
+(escobal01)
+(suzukic01)
+(hoppeno01)
+
+Problem #7 -----
+((Atlanta,GA))                                      
+((Oakland,CA))                                
+((Oklahoma City,OK))                                                    
+((Austin,TX))                                        
+((Utica,NY))
+
+Problem #8 -----
+((6,MN))

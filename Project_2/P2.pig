@@ -1,0 +1,11 @@
+master_data = LOAD 'hdfs:/user/maria_dev/pigtest/Master.csv' using PigStorage(',');
+master_table = FOREACH master_data GENERATE $0 AS id, $1 AS birthyear, $2 AS birthmonth;
+master_table = FILTER master_table BY $1 IS NOT NULL AND $2 IS NOT NULL;
+grouped_data = GROUP master_table BY (birthmonth, birthyear);
+count_births = FOREACH grouped_data GENERATE group AS month_year, COUNT(master_table.id) AS count_births;
+grouped_births = GROUP count_births BY count_births;
+grouped_births_fields = FOREACH grouped_births GENERATE group AS count_births, count_births.month_year AS month_year;
+order_births = ORDER grouped_births_fields BY count_births DESC;
+top_3 = LIMIT order_births 3;
+result = FOREACH top_3 GENERATE month_year;
+DUMP result;

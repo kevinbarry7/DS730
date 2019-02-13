@@ -1,0 +1,14 @@
+batters_data = LOAD 'hdfs:/user/maria_dev/pigtest/Batting.csv' using PigStorage(',');
+fielding_data = LOAD 'hdfs:/user/maria_dev/pigtest/Fielding.csv' using PigStorage(',');
+fielding_table = FOREACH fielding_data GENERATE $0 AS id, $1 AS year, $5 AS G, $10 AS error, $7 AS a, $8 AS b, $9 AS c, $10 AS d, $11AS e, $12AS f, $13AS g, $14AS h, $15 AS i, $16 AS j, $17 AS k;
+fielding_table = FILTER fielding_table BY (year >= 2005) AND (year <= 2009) AND G >= 20 AND NOT (a IS NULL AND b IS NULL AND c IS NULL AND d IS NULL AND e IS NULL AND f IS NULL AND g IS NULL AND h IS NULL AND i IS NULL AND j IS NULL AND k IS NULL);
+batting_table = FOREACH batters_data GENERATE $0 AS id, $1 AS year, $5 AS AB, $7 AS H;
+batting_table = FILTER batting_table BY (year >= 2005) AND (year <= 2009) AND AB >= 40;
+joined_data = JOIN fielding_table BY id, batting_table BY id;
+full_table = FOREACH joined_data GENERATE fielding_table::id AS id, fielding_table::year AS year, H AS H, AB AS AB, error AS error, G AS G;
+grouped_table = GROUP full_table BY id;
+joined_table = FOREACH grouped_table GENERATE group AS id, full_table.year AS year, (SUM(full_table.H)/SUM(full_table.AB))-(SUM(full_table.error)/SUM(full_table.G)) AS calc;
+ordered_table = ORDER joined_table BY calc DESC; 
+top_3 = LIMIT ordered_table 3;
+result = FOREACH top_3 GENERATE id;
+DUMP result;
