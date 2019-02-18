@@ -4,69 +4,8 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
 				"joined",
 				"joined_tables_exp"
-=======
-				"prev",
-				"prev_amount_spent"
-			],
-			[
-				"curre",
-				"current_customer_id"
-			],
-			[
-				"cur",
-				"current_month"
-			],
-			[
-				"prev_",
-				"prev_month"
-			],
-			[
-				"top_",
-				"top_spender"
-			],
-			[
-				"curr",
-				"current_customer_id"
-			],
-			[
-				"month",
-				"month_country"
-			],
-			[
-				"countr",
-				"country_months"
-			],
-			[
-				"cu",
-				"current_customer_id"
-			],
-			[
-				"current",
-				"current_month"
-			],
-			[
-				"customer",
-				"customer_id"
-			],
-			[
-				"amount",
-				"amount_spent"
-			],
-			[
-				"invoice",
-				"invoice_test"
-			],
-			[
-				"max",
-				"max_people"
-			],
-			[
-				"an",
-				"another_list"
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
 			],
 			[
 				"birth",
@@ -173,7 +112,6 @@
 				"first_person_id"
 			],
 			[
-<<<<<<< HEAD
 				"prev",
 				"prev_customer_id"
 			],
@@ -254,8 +192,6 @@
 				"line_count"
 			],
 			[
-=======
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
 				"next_",
 				"next_vowel"
 			],
@@ -578,146 +514,19 @@
 			[
 				"most",
 				"most_common_color"
-<<<<<<< HEAD
-=======
-			],
-			[
-				"color_",
-				"color_equality"
-			],
-			[
-				"sorted",
-				"sorted_list"
-			],
-			[
-				"sort",
-				"sorted_dict"
-			],
-			[
-				"rarity",
-				"rarity_levels"
-			],
-			[
-				"card",
-				"cards"
-			],
-			[
-				"avg",
-				"avg_rating"
-			],
-			[
-				"avg_",
-				"avg_length"
-			],
-			[
-				"num",
-				"numhelpful"
-			],
-			[
-				"all",
-				"all_reviews"
-			],
-			[
-				"field",
-				"field_list"
-			],
-			[
-				"letter_fre",
-				"letter_freq_new"
-			],
-			[
-				"letter",
-				"letter_max_freq"
-			],
-			[
-				"let",
-				"letter_freq"
-			],
-			[
-				"alpha",
-				"alpha_upper"
-			],
-			[
-				"length",
-				"length_detail"
-			],
-			[
-				"sentence",
-				"sentence_num"
-			],
-			[
-				"waitin",
-				"waiting_time_list"
-			],
-			[
-				"format",
-				"formatted_time"
-			],
-			[
-				"input",
-				"input_str"
-			],
-			[
-				"inst",
-				"input_str"
-			],
-			[
-				"print",
-				"print_output"
-			],
-			[
-				"ign",
-				"ignore_case"
-			],
-			[
-				"lett",
-				"letter_count"
-			],
-			[
-				"leter",
-				"letter_stats"
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_13/.ssh/id_rsa",
+			"file": "Lesson_7/Activity_5/baseball.q",
 			"settings":
 			{
-<<<<<<< HEAD
-				"buffer_size": 3434,
-=======
-				"buffer_size": 1286,
+				"buffer_size": 1180,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Project_1/problem_3/mapper3.py",
-			"settings":
-			{
-				"buffer_size": 711,
-				"encoding": "UTF-8",
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -write -nrFiles 10 -fileSize 50",
-			"settings":
-			{
-				"buffer_size": 133,
 				"line_ending": "Unix",
-				"name": "hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/ha"
+				"name": "DROP TABLE IF EXISTS batting;"
 			}
 		}
 	],
@@ -874,15 +683,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-<<<<<<< HEAD
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/pigtest"
-	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_15/.ssh/config",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/answers.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P8.pig",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P1.pig",
@@ -936,43 +739,10 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/user/maria_dev/project_1/output/part_sorted.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_1.py",
-=======
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1/output"
-	],
-	"file_history":
-	[
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/intermediate.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_3/TestStateless.java",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/output.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/input.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/user/maria_dev/project_1/output/part_sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/hw_dfs_command.txt",
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/hdfs_test.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/mapper2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/hdfs_test.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/hdfs_test.txt",
-<<<<<<< HEAD
-=======
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_2.py",
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/sorted.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2_01.py",
@@ -1042,46 +812,7 @@
 		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/index.html",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/eb_twitter_creds.py",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/test_misc_code.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Regex_note.md",
-<<<<<<< HEAD
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Twitter_Sentiment_Analyzer/README.md"
-=======
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Twitter_Sentiment_Analyzer/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/test_misc_code.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Project_README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/ProcessTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/StreamTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Program_README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Program_Workflow.txt",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/profanity_list.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Sample_2/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/Sample_1/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Program_Workflow.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/test_misc_code.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Program_Workflow.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/ProcessTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/StreamTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/spinner.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/ProgramDecorator.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/ProgramHandler.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/RunProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/GetTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/RunProgram_v2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Run_G1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/class_version/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Run_G2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/run_group2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/run_group1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/exec_group1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/executable_group1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/executable_group2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/class_version/Program_Workflow_v2.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/Program_Workflow_v2.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/TwitterAnalysis.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/Fall_2018/710/ds710fall2018finalprojectproposal/exec2.py"
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Regex_note.md"
 	],
 	"find":
 	{
@@ -1099,10 +830,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"huelsfr01",
-			"unspecified",
-			"= ",
-			"EOD"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1120,155 +847,35 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_13/.ssh/id_rsa",
+					"file": "Lesson_7/Activity_5/baseball.q",
 					"semi_transient": false,
 					"settings":
 					{
-<<<<<<< HEAD
-						"buffer_size": 3434,
-=======
-						"buffer_size": 1286,
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
+						"buffer_size": 1180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-								0,
-								0
-=======
-								12,
-								12
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
+								1139,
+								1139
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-=======
+							"auto_name": "DROP TABLE IF EXISTS batting;",
 							"origPos":
 							[
 								0.0,
 								0.0
 							],
 							"syncScroll": false,
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-<<<<<<< HEAD
-				}
-			]
-		},
-		{
-			"sheets":
-			[
-=======
-				},
-				{
-					"buffer": 1,
-					"file": "Project_1/problem_3/mapper3.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								133
-							]
-						],
-						"settings":
-						{
-							"auto_name": "hadoop jar /usr/hdp/2.6.4.0-91/hadoop-mapreduce/ha",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1278,12 +885,6 @@
 					"stack_index": 0,
 					"type": "text"
 				}
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -1304,12 +905,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -1320,11 +915,6 @@
 		"rows":
 		[
 			0.0,
-<<<<<<< HEAD
-			0.545009239281,
-=======
-			0.562188712094,
->>>>>>> 05313f26c5d7e82056ff649696ad22ee1f696623
 			1.0
 		]
 	},
