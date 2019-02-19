@@ -1,0 +1,994 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"joined",
+				"joined_tables_exp"
+			],
+			[
+				"birth",
+				"birthstate"
+			],
+			[
+				"joinde",
+				"joined_data"
+			],
+			[
+				"filtered",
+				"filtered_master"
+			],
+			[
+				"grouped_",
+				"grouped_result"
+			],
+			[
+				"master_",
+				"master_table"
+			],
+			[
+				"sum",
+				"sum_hits"
+			],
+			[
+				"sum_",
+				"sum_hits_grouped"
+			],
+			[
+				"hits",
+				"hits_data"
+			],
+			[
+				"max",
+				"max_xb_hits"
+			],
+			[
+				"xb",
+				"xb_hits_grouped"
+			],
+			[
+				"player_",
+				"player_table"
+			],
+			[
+				"play",
+				"player_table"
+			],
+			[
+				"player",
+				"player_id_filter"
+			],
+			[
+				"join",
+				"joined_data"
+			],
+			[
+				"fir",
+				"first_person_connections"
+			],
+			[
+				"first",
+				"first_person_id"
+			],
+			[
+				"secon",
+				"second_person_connections"
+			],
+			[
+				"second",
+				"second_person_id"
+			],
+			[
+				"seond_person",
+				"second_person_id"
+			],
+			[
+				"first_person",
+				"first_person_connections"
+			],
+			[
+				"sec",
+				"second_person_connections"
+			],
+			[
+				"people",
+				"people_lists"
+			],
+			[
+				"might",
+				"might_know"
+			],
+			[
+				"second_pers",
+				"second_person_id"
+			],
+			[
+				"first_per",
+				"first_person_id"
+			],
+			[
+				"firs",
+				"first_person_id"
+			],
+			[
+				"prev",
+				"prev_customer_id"
+			],
+			[
+				"curre",
+				"current_customer_id"
+			],
+			[
+				"cur",
+				"current_month"
+			],
+			[
+				"prev_",
+				"prev_month"
+			],
+			[
+				"top_",
+				"top_spender"
+			],
+			[
+				"curr",
+				"current_customer_id"
+			],
+			[
+				"month",
+				"month_country"
+			],
+			[
+				"countr",
+				"country_months"
+			],
+			[
+				"cu",
+				"current_customer_id"
+			],
+			[
+				"current",
+				"current_month"
+			],
+			[
+				"customer",
+				"customer_id"
+			],
+			[
+				"amount",
+				"amount_spent"
+			],
+			[
+				"invoice",
+				"invoice_test"
+			],
+			[
+				"an",
+				"another_list"
+			],
+			[
+				"m",
+				"might_know"
+			],
+			[
+				"main",
+				"main_person"
+			],
+			[
+				"app",
+				"all_people"
+			],
+			[
+				"l",
+				"last_line"
+			],
+			[
+				"conn",
+				"connections_count"
+			],
+			[
+				"line",
+				"line_count"
+			],
+			[
+				"next_",
+				"next_vowel"
+			],
+			[
+				"first_",
+				"first_count"
+			],
+			[
+				"next",
+				"next_vowel"
+			],
+			[
+				"vowl",
+				"vowels_present"
+			],
+			[
+				"vowels",
+				"vowels_present"
+			],
+			[
+				"vo",
+				"vowels_lower"
+			],
+			[
+				"vowel",
+				"vowels_present"
+			],
+			[
+				"vowe",
+				"vowels_upper"
+			],
+			[
+				"word",
+				"word_list"
+			],
+			[
+				"curren",
+				"current_month"
+			],
+			[
+				"pr",
+				"prev_month"
+			],
+			[
+				"pre",
+				"prev_amount_spent"
+			],
+			[
+				"error",
+				"error_type"
+			],
+			[
+				"cross_",
+				"cross_val_type"
+			],
+			[
+				"cv",
+				"cv_results"
+			],
+			[
+				"random",
+				"random_state"
+			],
+			[
+				"feature",
+				"feature_selection_model"
+			],
+			[
+				"train_",
+				"train_labels"
+			],
+			[
+				"model",
+				"model_dict"
+			],
+			[
+				"profan",
+				"profanity"
+			],
+			[
+				"prf",
+				"profanity_list"
+			],
+			[
+				"filter",
+				"filtered_users"
+			],
+			[
+				"ex",
+				"excluded_users"
+			],
+			[
+				"excluded_",
+				"excluded_users"
+			],
+			[
+				"sub",
+				"sub_dir"
+			],
+			[
+				"file",
+				"file_name_json"
+			],
+			[
+				"get",
+				"get_abs_path"
+			],
+			[
+				"abs",
+				"abs_file_path"
+			],
+			[
+				"clean",
+				"cleaned_streamed_tweets_csv"
+			],
+			[
+				"streamed",
+				"streamed_tweets_json"
+			],
+			[
+				"full_tweets",
+				"full_tweets_json"
+			],
+			[
+				"load",
+				"load_obj"
+			],
+			[
+				"key",
+				"keywords2"
+			],
+			[
+				"full_t",
+				"full_tweets_index"
+			],
+			[
+				"full",
+				"full_tweets"
+			],
+			[
+				"follow",
+				"followers_count"
+			],
+			[
+				"truncate",
+				"truncate_and_transform"
+			],
+			[
+				"max_",
+				"max_users"
+			],
+			[
+				"streamed_tweets_",
+				"streamed_tweets_workout"
+			],
+			[
+				"stream",
+				"streamed_tweets"
+			],
+			[
+				"trun",
+				"truncated_full_tweets_json"
+			],
+			[
+				"truncated_full_tweets",
+				"truncated_full_tweets_csv"
+			],
+			[
+				"_truncate",
+				"_truncate_and_transform"
+			],
+			[
+				"tweets",
+				"tweets_type"
+			],
+			[
+				"exc",
+				"excluded_indices"
+			],
+			[
+				"all_",
+				"all_tweets_workout_100"
+			],
+			[
+				"hash",
+				"hashtag_counts"
+			],
+			[
+				"json",
+				"json_file_name"
+			],
+			[
+				"user_ids",
+				"user_ids_min"
+			],
+			[
+				"user",
+				"user_ids"
+			],
+			[
+				"status",
+				"statuses_lookup"
+			],
+			[
+				"user_",
+				"user_ids"
+			],
+			[
+				"hashtag",
+				"hashtag_count"
+			],
+			[
+				"has",
+				"hashtag_count"
+			],
+			[
+				"reply",
+				"reply_to2"
+			],
+			[
+				"users_workou",
+				"users_workoutgroup2"
+			],
+			[
+				"tweet",
+				"tweet_len"
+			],
+			[
+				"wholefoods",
+				"wholefoods_followers"
+			],
+			[
+				"walmart_followers",
+				"walmart_followers"
+			],
+			[
+				"wal",
+				"walmart_follower_ids"
+			],
+			[
+				"walmart",
+				"walmart_follower_ids"
+			],
+			[
+				"scree1",
+				"screen_name1"
+			],
+			[
+				"scree",
+				"screen_name2"
+			],
+			[
+				"get_",
+				"get_followers_v2"
+			],
+			[
+				"wholes",
+				"wholefoods_followers"
+			],
+			[
+				"screen",
+				"screen_name1"
+			],
+			[
+				"follo",
+				"followers_wholefoods"
+			],
+			[
+				"folo",
+				"followers_walmart"
+			],
+			[
+				"creat",
+				"create_csv"
+			],
+			[
+				"process",
+				"process_followers"
+			],
+			[
+				"foll",
+				"following_albertsons"
+			],
+			[
+				"fol",
+				"following_walmart"
+			],
+			[
+				"cou",
+				"count_tweets"
+			],
+			[
+				"f",
+				"following_albertsons"
+			],
+			[
+				"fo",
+				"following_safeway"
+			],
+			[
+				"followin",
+				"following_walmart"
+			],
+			[
+				"senti",
+				"sentiment_avg"
+			],
+			[
+				"snetiment",
+				"sentiment_list"
+			],
+			[
+				"user_id",
+				"user_id_c"
+			],
+			[
+				"climate",
+				"climate_tweets"
+			],
+			[
+				"most",
+				"most_common_color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/answers.txt",
+			"settings":
+			{
+				"buffer_size": 440,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "Answers:"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python-3.7.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python-3.7.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"vi",
+				"Virtualenv: Activate"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"hermes: ",
+				"Hermes: List Kernels"
+			],
+			[
+				"herm",
+				"Hermes: Connect Kernel"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"virt",
+				"Virtualenv: Activate"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"v",
+				"Virtualenv: Activate"
+			],
+			[
+				"sublimerepl: p",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"env",
+				"Virtualenv: Activate"
+			],
+			[
+				"vir",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"vi ",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"acti",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtualenv",
+				"Virtualenv: Activate"
+			],
+			[
+				"virtual",
+				"Virtualenv: Activate"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build: Cancel"
+			],
+			[
+				"package control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"paclage ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 355.0,
+		"history":
+		[
+			"print(type(housing.predictions))",
+			"print(type(self.predictions))",
+			"print(hello)",
+			"which python",
+			"which python3",
+			"view.encoding(walmart_followers.json)",
+			"view.encoding()",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install",
+			"install SublimeREPL",
+			"sublimerepl"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730"
+	],
+	"file_history":
+	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P8.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P7.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P1.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P6.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/answers.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P6.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P2.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P5.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P4.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P3.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P2.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_7/Activity_5/hive1.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_7/Activity_5/baseball.q",
+		"/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_15/.ssh/config",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P8.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P1.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P7.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P4.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P5.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P3.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p2.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p3.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_1/problem_1.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/answers.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_1/answers.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_3/problem_3.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_2/problem_2.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/comp.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.pig.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/part-v002-o000-r-00000_3.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1_1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/baseball.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/sorted.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/input.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/baseball.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/hw_dfs_command.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/part-00000.dms",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1/output/part-00000.dms",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_5.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/intermediate.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_3/TestStateless.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/user/maria_dev/project_1/output/part_sorted.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/hdfs_test.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/mapper2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/hdfs_test.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/hdfs_test.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/sorted.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2_01.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/input2.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/test.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/input.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/mapper1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/reducer2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/sorted.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/reducer3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/reducer1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/test.py",
+		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/Hermes/Hermes.sublime-settings",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/reducer.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_a/reducer.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_a/mapper.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/mapper.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/reducer.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/input.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/mapper.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/reducer.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/input.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/first.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/kaggle-ml/housing_project/housing_project.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/kaggle-ml/ML_Program.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/projects.sublime-project",
+		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/Users/ebolotin/Dropbox/TechDev/backup_sublime_settings/Python3_Venv.sublime-build",
+		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/Virtualenv/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/minima-master/LICENSE.txt",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/UW_Assignments/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/UW_Assignments/assignment_7/test_6.txt",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/.ipynb_checkpoints/Directions-checkpoint.ipynb",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Instructions.ipynb",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/ProcessTweets.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/portfolio.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/portfolio/index.html",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Fargo_Health_Group_Case/Project_Summary.docx",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Fargo_Health_Group_Case/README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Regex_README.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/StreamTweets.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/TwitterProgram.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/.ipynb_checkpoints/Directions-checkpoint.ipynb",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/.ipynb_checkpoints/Instructions-checkpoint.ipynb",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/twitter_credentials.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/twitter_credentials_backup.py",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/index.md",
+		"/Users/ebolotin/.bash_profile",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_config.yml",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/Gemfile",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_posts/2018-12-01-Updated-projects.md",
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/assets/main.scss"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"20",
+			"LIMIT"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/answers.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Answers:",
+							"origPos":
+							[
+								0.0,
+								384.0
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.667654920841,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 268.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "730.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

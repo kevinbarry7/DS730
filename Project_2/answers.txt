@@ -1,13 +1,13 @@
-Activity 4 - Answers
-* Answers are in the correct order according to the question in the assignment instructions.
+Project 2 - Answers
+* Answers are in the order according to the question in the assignment instructions.
 
 Problem #1 -----
 (Mobile)
 
 Problem #2 -----
-({((8,1979)),((11,1968))})
-({((9,1983))})       
-({((2,1983)),((10,1982))})
+({(8/1979),(11/1968)})
+({(9/1983)})
+({(2/1983),(10/1982)})
 
 Problem #3 -----
 ({(Eddie Gaedel)})

@@ -1,0 +1,44 @@
+Answers:
+* all answers presented in the order requested in the assignment
+
+Problem #1:
+A: 
+	Cincinnati
+
+
+Problem #2:
+A:
+	11/18
+	8/15
+	8/4
+
+Problem #3:
+A: 
+	185
+
+Problem #4:
+A: 
+	SDN
+
+Problem #5:
+A: 
+	longhe01
+
+Problem #6:
+A: (with a tie at 3rd: suzukic01 and hoppeno01)
+	bedarer01
+	escobal01
+	suzukic01
+	hoppeno01
+
+Problem #7
+A: 
+	Los Angeles/CA
+	Chicago/IL
+	Philadelphia/PA
+	St. Louis/MO
+	San Francisco/CA
+
+Problem #8
+A: 
+	10/San Cristobal

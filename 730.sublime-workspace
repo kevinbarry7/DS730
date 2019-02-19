@@ -519,16 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Lesson_7/Activity_5/baseball.q",
-			"settings":
-			{
-				"buffer_size": 1180,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "DROP TABLE IF EXISTS batting;"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -685,6 +675,7 @@
 	},
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_7/Activity_5/baseball.q",
 		"/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_15/.ssh/config",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/answers.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/P8.pig",
@@ -811,8 +802,7 @@
 		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/index.md",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/index.html",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/eb_twitter_creds.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/test_misc_code.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Regex_note.md"
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/test_misc_code.py"
 	],
 	"find":
 	{
@@ -847,44 +837,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Lesson_7/Activity_5/baseball.q",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1139,
-								1139
-							]
-						],
-						"settings":
-						{
-							"auto_name": "DROP TABLE IF EXISTS batting;",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
