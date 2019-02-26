@@ -519,6 +519,16 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Lesson_9/RunMe.java",
+			"settings":
+			{
+				"buffer_size": 411,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "int value = 10;"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -673,6 +683,11 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9"
+	],
 	"file_history":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_7/Activity_5/baseball.q",
@@ -837,8 +852,46 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Lesson_9/RunMe.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"auto_name": "int value = 10;",
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -881,7 +934,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
 	"project": "730.sublime-project",
 	"replace":
 	{

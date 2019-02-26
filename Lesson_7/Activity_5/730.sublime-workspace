@@ -519,16 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/answers.txt",
-			"settings":
-			{
-				"buffer_size": 440,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "Answers:"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -683,12 +673,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730"
-	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/p3/answers.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P8.q",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P7.q",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P1.q",
@@ -815,8 +802,7 @@
 		"/Users/ebolotin/.bash_profile",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_config.yml",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/Gemfile",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_posts/2018-12-01-Updated-projects.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/assets/main.scss"
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_posts/2018-12-01-Updated-projects.md"
 	],
 	"find":
 	{
@@ -834,8 +820,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"20",
-			"LIMIT"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -858,43 +842,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/answers.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 440,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Answers:",
-							"origPos":
-							[
-								0.0,
-								384.0
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
