@@ -22,10 +22,10 @@ public class Index{
 			totalCharCount = totalCharCount + length;
 
 			// if total character count is greater than num_chars
-			if(totalCharCount >= num_chars) {
-				// increment index and reset character count to 0
+			if(totalCharCount > num_chars) {
+				// increment index and reset character count to length
 				index = index + 1;
-				totalCharCount = 0;
+				totalCharCount = length;
 			}
 
 			// check if word_indices already has word (key)
@@ -90,7 +90,7 @@ public class Index{
 		
 		// Loop through inputfile list and execute wordIndex method
 		for(File file : inputFiles) {
-			if (file.isFile() && file.getName().endsWith(".txt")) {;
+			if (file.isFile() && file.getName().endsWith(".txt")) {
 				wordIndex(file, outputFolder, num_chars);
 			}
 		}

@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"indices",
+				"indicesByFile"
+			],
+			[
+				"file",
+				"fileWordIndices"
+			],
+			[
+				"glo",
+				"globalIndices"
+			],
+			[
+				"count",
+				"countIndex"
+			],
+			[
+				"global",
+				"global_indices"
+			],
+			[
+				"globa",
+				"global_indices"
+			],
+			[
+				"get",
+				"getWordIndices"
+			],
+			[
+				"word",
+				"word_indices"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"Index",
+				"IndexThread"
+			],
+			[
+				"num",
+				"numFiles"
+			],
+			[
+				"inp",
+				"inputFiles"
+			],
+			[
+				"input",
+				"inputFile"
+			],
+			[
+				"total",
+				"totalCharCount"
+			],
+			[
+				"inpu",
+				"inputFile"
+			],
+			[
+				"st",
+				"startTime"
+			],
+			[
+				"output",
+				"outputFolder"
+			],
+			[
+				"out",
+				"outputFolder"
+			],
+			[
+				"prime",
+				"prime_check"
+			],
+			[
+				"ex",
+				"ex_value"
+			],
+			[
 				"joined",
 				"joined_tables_exp"
 			],
@@ -224,10 +304,6 @@
 				"vowels_upper"
 			],
 			[
-				"word",
-				"word_list"
-			],
-			[
 				"curren",
 				"current_month"
 			],
@@ -280,24 +356,12 @@
 				"filtered_users"
 			],
 			[
-				"ex",
-				"excluded_users"
-			],
-			[
 				"excluded_",
 				"excluded_users"
 			],
 			[
 				"sub",
 				"sub_dir"
-			],
-			[
-				"file",
-				"file_name_json"
-			],
-			[
-				"get",
-				"get_abs_path"
 			],
 			[
 				"abs",
@@ -450,83 +514,18 @@
 			[
 				"wholes",
 				"wholefoods_followers"
-			],
-			[
-				"screen",
-				"screen_name1"
-			],
-			[
-				"follo",
-				"followers_wholefoods"
-			],
-			[
-				"folo",
-				"followers_walmart"
-			],
-			[
-				"creat",
-				"create_csv"
-			],
-			[
-				"process",
-				"process_followers"
-			],
-			[
-				"foll",
-				"following_albertsons"
-			],
-			[
-				"fol",
-				"following_walmart"
-			],
-			[
-				"cou",
-				"count_tweets"
-			],
-			[
-				"f",
-				"following_albertsons"
-			],
-			[
-				"fo",
-				"following_safeway"
-			],
-			[
-				"followin",
-				"following_walmart"
-			],
-			[
-				"senti",
-				"sentiment_avg"
-			],
-			[
-				"snetiment",
-				"sentiment_list"
-			],
-			[
-				"user_id",
-				"user_id_c"
-			],
-			[
-				"climate",
-				"climate_tweets"
-			],
-			[
-				"most",
-				"most_common_color"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Lesson_9/RunMe.java",
+			"file": "/Users/ebolotin/Dropbox/TechDev/java/misc.java",
 			"settings":
 			{
-				"buffer_size": 411,
+				"buffer_size": 636,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "int value = 10;"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -686,10 +685,38 @@
 	"expanded_folders":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src",
+		"/Users/ebolotin/Dropbox/TechDev/java"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/class_materials/MoreJavaSamples/output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/outputFolder/output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner_o.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/IndexRunner.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/Index.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/class_materials/ProjSamples/output/moby_output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/outputFolder/moby_output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/outputFolder/wap_output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/class_materials/ProjSamples/output/wap_output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/p2_v1/IndexThread.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/p2_v1/IndexThread_o.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/IndexThread.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/IndexThread.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/IndexRunner.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/IndexThread_o.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/Index_o.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/Index_o_v2.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/Index.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/Activity_6/First.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/JavaApplication1.java",
+		"/Users/ebolotin/Dropbox/TechDev/java/misc.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/Activity_6/First_c.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/Activity_6/test.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/RunMe.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_7/Activity_5/baseball.q",
 		"/Users/ebolotin/Dropbox/TechDev/dotfiles/.ssh_mbp_15/.ssh/config",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_2/answers.txt",
@@ -791,37 +818,11 @@
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Instructions.ipynb",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/ProcessTweets.py",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/portfolio.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/portfolio/index.html",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Fargo_Health_Group_Case/Project_Summary.docx",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Fargo_Health_Group_Case/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Regex_README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/StreamTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/TwitterProgram.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/.ipynb_checkpoints/Directions-checkpoint.ipynb",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/.ipynb_checkpoints/Instructions-checkpoint.ipynb",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/twitter_credentials.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/twitter_credentials_backup.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/index.md",
-		"/Users/ebolotin/.bash_profile",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_config.yml",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/Gemfile",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_posts/2018-12-01-Updated-projects.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/assets/main.scss",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/about.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/data.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/minima-master/Gemfile",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_layouts/default.html",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/assets/css/style.css",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/index.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/_site/index.html",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/eb_twitter_creds.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/test_misc_code.py"
+		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/README.md"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -835,6 +836,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"thread"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -857,33 +859,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Lesson_9/RunMe.java",
+					"file": "/Users/ebolotin/Dropbox/TechDev/java/misc.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 411,
+						"buffer_size": 636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								636,
+								636
 							]
 						],
 						"settings":
 						{
-							"auto_name": "int value = 10;",
 							"origPos":
 							[
 								0.0,
 								0.0
 							],
 							"syncScroll": false,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"syntax": "Packages/Java/Java.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -893,11 +892,16 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -912,6 +916,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -922,6 +932,7 @@
 		"rows":
 		[
 			0.0,
+			0.816413634216,
 			1.0
 		]
 	},
@@ -938,7 +949,7 @@
 	"project": "730.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 50.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -972,7 +983,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
