@@ -685,12 +685,13 @@
 	"expanded_folders":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src",
-		"/Users/ebolotin/Dropbox/TechDev/java"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12/Activity 7"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12/Activity 7/p3.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12/Activity 7/p1.scala",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/class_materials/MoreJavaSamples/output.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/outputFolder/output.txt",
@@ -816,13 +817,11 @@
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/README.md",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/.ipynb_checkpoints/Directions-checkpoint.ipynb",
 		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Instructions.ipynb",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/ProcessTweets.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/portfolio.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/ebolotin6.github.io/README.md"
+		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/ProcessTweets.py"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
