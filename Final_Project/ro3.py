@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+
+# 0. create list to contain routes
+# 1. get building list minus first building
+# 2. begin looping through building list and add first blding to sublist.
+# 3. get building list minus first building again
+# 4. begin looping through building list and add first building to sublist.
+
+import sys
+import math
+
+buildings_dict = {}
+buildings_list = []
+
+with open(sys.argv[1],"r") as file:
+	for line in file:
+		line = line.split(" : ")
+		building = line[0]
+		travel_times = line[1].strip("\n").split(" ")
+		buildings_dict[building] = list(map(int, travel_times))
+		buildings_list.append(building)
+
+
+for building, travel_times in buildings_dict.items():
+	building_sub_dict = {}
+
+	for i, time in enumerate(travel_times):
+		building_sub_dict[buildings_list[i]] = time
+
+	buildings_dict[building] = building_sub_dict
+
+
+def make_tree(parent_building, blist, route = None): # [B, C, D]
+	blist = list(filter(lambda x: x != parent_building, blist))
+	
+	for bld in blist:
+		yield bld
+		
+		for b2 in make_tree(bld, blist):
+			yield b2
+
+
+master_list = []
+for i, building in enumerate(buildings_list[1:]):
+	ls = [building]
+	num_root_parents = len(buildings_list[1:])
+	total_routes = math.factorial(num_root_parents)
+	routes_per_parent = total_routes/num_root_parents
+	count_routes_added = 0
+	
+	for tree in make_tree(building, buildings_list[1:]):
+		ls.append(tree)
+		
+		if len(ls) == num_root_parents:
+			count_routes_added += 1
+			print(ls)
+			print("POST TO MASTER. Routes: ", count_routes_added)
+
+			if count_routes_added % 2 != 0:
+				del ls[-2:]
+
+			else:
+				ls = [building]

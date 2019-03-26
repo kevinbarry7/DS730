@@ -1,0 +1,4 @@
+BldgA : 0 5 8 10
+BldgB : 6 0 5 9
+BldgC : 6 4 0 6
+BldgD : 8 6 9 0

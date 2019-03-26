@@ -1,0 +1,36 @@
+Answers:
+
+a. In Oshkosh, the days where the temperature is really cold at any point (-10 or lower) are *more common* than days where the temperature was hot at any point (95 or higher).
+
+b. The difference in average temperatures for each season for Oshkosh vs Iowa City is:
+
+season 	avg_temp_diff
+Fall 	-2.79
+Spring 	-5.44
+Summer 	-3.39
+Winter 	-2.19
+
+c. The hottest 7 day period for Oshkosh was the first week of July in 2012.
+
+d. The hour that has the most occurrences of the coldest average is 5AM.
+
+e. The city that had the largest temperature difference in a period of 24 hours or less was Iowa City. The temperature difference was 56.2 degrees, and it occurred from 2008-12-14 06:52:00.0 to 2008-12-15 06:52:00.0.
+
+f. Answer in table form:
+
++-----+----+--------+
+|month|hour|    city|
++-----+----+--------+
+|    1| 2PM|IowaCity|
+|    2| 2PM|IowaCity|
+|    3| 2PM|IowaCity|
+|    4| 9AM|IowaCity|
+|    5| 5AM| Oshkosh|
+|    6| 4AM| Oshkosh|
+|    7| 5AM| Oshkosh|
+|    8| 5AM| Oshkosh|
+|    9| 4AM| Oshkosh|
+|   10| 8AM|IowaCity|
+|   11| 1PM|IowaCity|
+|   12| 2PM|IowaCity|
++-----+----+--------+
