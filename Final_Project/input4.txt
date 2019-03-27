@@ -1,5 +1,5 @@
-BldgA : 0 5 8 10 11
-BldgB : 6 0 5 9 11
-BldgC : 6 4 0 6 11
-BldgD : 8 6 9 0 11
-BldgE : 1 2 3 4 5
+BldgA : 0 5 6 7 8
+BldgB : 6 0 5 6 6
+BldgC : 4 4 0 6 4
+BldgD : 7 5 3 0 4
+BldgE : 8 6 4 3 0

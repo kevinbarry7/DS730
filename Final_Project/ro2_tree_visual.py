@@ -20,7 +20,6 @@ with open(sys.argv[1],"r") as file:
 		buildings_dict[building] = list(map(int, travel_times))
 		buildings_list.append(building)
 
-
 for building, travel_times in buildings_dict.items():
 	building_sub_dict = {}
 
@@ -29,14 +28,18 @@ for building, travel_times in buildings_dict.items():
 
 	buildings_dict[building] = building_sub_dict
 
-def make_tree(parent_building, blist, route = None): # [B, C, D]
+
+def make_tree(parent_building, blist, level = None): # [B, C, D]
 	blist = list(filter(lambda x: x != parent_building, blist))
+	if level is None:
+		level = 1
+	level += 1
 	for bld in blist:
-		yield f"1: {bld}"
-		for b2 in make_tree(bld, blist):
-			yield f"2: {b2}"
+		yield f"({level}, {bld})"
+		for b2 in make_tree(bld, blist, level):
+			yield f"{b2}"
 
 for i, building in enumerate(buildings_list[1:]):
-	print("BUILDING ", building)
+	print("------- BUILDING ", building)
 	for tree in make_tree(building, buildings_list[1:]):
 		print(tree)

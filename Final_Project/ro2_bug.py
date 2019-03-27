@@ -42,13 +42,18 @@ for i, building in enumerate(buildings_list[1:]):
 	total_routes = math.factorial(num_root_parents)
 	routes_per_parent = total_routes/num_root_parents
 	count_routes_added = 0
-	
+	i = 1
+
 	for tree in make_tree(building, buildings_list[1:]):
 		ls.append(tree)
-		
+
 		if len(ls) == num_root_parents:
+			print("before: ", ls)
 			count_routes_added += 1
-			master_list.append(tuple(ls))
+			ls.append(i)
+			master_list.append(ls)
+			print("after: ", ls)
+			i += 1
 
 			if count_routes_added % 2 != 0:
 				del ls[-2:]
@@ -58,8 +63,4 @@ for i, building in enumerate(buildings_list[1:]):
 
 
 pprint.pprint(master_list)
-
-# for i in master_list:
-# 	print(i)
-
 print(len(master_list))

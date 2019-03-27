@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 
-# 0. create list to contain routes
-# 1. get building list minus first building
-# 2. begin looping through building list and add first blding to sublist.
-# 3. get building list minus first building again
-# 4. begin looping through building list and add first building to sublist.
-
 import sys
 from itertools import permutations
 
@@ -33,5 +27,3 @@ for building, travel_times in buildings_dict.items():
 perm = permutations(buildings_list[1:])
 l = len(list(perm))
 print(l)
-# for i in perm:
-# 	print(i)

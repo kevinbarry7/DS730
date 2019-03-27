@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"bu",
+				"building"
+			],
+			[
+				"buil",
+				"buildings_list"
+			],
+			[
+				"b",
+				"buildings_list"
+			],
+			[
+				"build",
+				"buildings_list"
+			],
+			[
+				"buildin",
+				"buildings_dict"
+			],
+			[
+				"building",
+				"buildings_list"
+			],
+			[
+				"route",
+				"route_string"
+			],
+			[
+				"optima",
+				"optimal_route_list"
+			],
+			[
+				"optim",
+				"optimal_route_list"
+			],
+			[
+				"opt",
+				"optimal_route_list"
+			],
+			[
+				"optimal",
+				"optimal_route_list"
+			],
+			[
+				"first",
+				"first_building"
+			],
+			[
+				"min",
+				"min_building"
+			],
+			[
+				"bui",
+				"buildings_list"
+			],
+			[
+				"buildings",
+				"buildings_list"
+			],
+			[
+				"temp",
+				"temp_rank"
+			],
+			[
+				"avg",
+				"avg_wind"
+			],
+			[
+				"Tem",
+				"TemperatureF"
+			],
+			[
+				"iowac",
+				"iowacity_tbl"
+			],
+			[
+				"sql",
+				"sqlContext"
+			],
+			[
+				"date",
+				"date_time"
+			],
+			[
+				"osh",
+				"oshkosh_tbl"
+			],
+			[
+				"iowa",
+				"iowacity"
+			],
+			[
 				"indices",
 				"indicesByFile"
 			],
@@ -146,10 +238,6 @@
 			[
 				"fir",
 				"first_person_connections"
-			],
-			[
-				"first",
-				"first_person_id"
 			],
 			[
 				"secon",
@@ -426,106 +514,75 @@
 			[
 				"_truncate",
 				"_truncate_and_transform"
-			],
-			[
-				"tweets",
-				"tweets_type"
-			],
-			[
-				"exc",
-				"excluded_indices"
-			],
-			[
-				"all_",
-				"all_tweets_workout_100"
-			],
-			[
-				"hash",
-				"hashtag_counts"
-			],
-			[
-				"json",
-				"json_file_name"
-			],
-			[
-				"user_ids",
-				"user_ids_min"
-			],
-			[
-				"user",
-				"user_ids"
-			],
-			[
-				"status",
-				"statuses_lookup"
-			],
-			[
-				"user_",
-				"user_ids"
-			],
-			[
-				"hashtag",
-				"hashtag_count"
-			],
-			[
-				"has",
-				"hashtag_count"
-			],
-			[
-				"reply",
-				"reply_to2"
-			],
-			[
-				"users_workou",
-				"users_workoutgroup2"
-			],
-			[
-				"tweet",
-				"tweet_len"
-			],
-			[
-				"wholefoods",
-				"wholefoods_followers"
-			],
-			[
-				"walmart_followers",
-				"walmart_followers"
-			],
-			[
-				"wal",
-				"walmart_follower_ids"
-			],
-			[
-				"walmart",
-				"walmart_follower_ids"
-			],
-			[
-				"scree1",
-				"screen_name1"
-			],
-			[
-				"scree",
-				"screen_name2"
-			],
-			[
-				"get_",
-				"get_followers_v2"
-			],
-			[
-				"wholes",
-				"wholefoods_followers"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/ebolotin/Dropbox/TechDev/java/misc.java",
+			"file": "Final_Project/RouteOptimizer.java",
 			"settings":
 			{
-				"buffer_size": 636,
+				"buffer_size": 8500,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Final_Project/ro2.py",
+			"settings":
+			{
+				"buffer_size": 1201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Final_Project/ro3.py",
+			"settings":
+			{
+				"buffer_size": 1582,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Final_Project/ro4.py",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Final_Project/input2.txt",
+			"settings":
+			{
+				"buffer_size": 41,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "BldgA : 0 5 7"
+			}
+		},
+		{
+			"file": "Final_Project/input3.txt",
+			"settings":
+			{
+				"buffer_size": 64,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "BldgA : 0 5 7"
+			}
+		},
+		{
+			"file": "Final_Project/input4.txt",
+			"settings":
+			{
+				"buffer_size": 94,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "BldgA : 0 5 8 10 11"
 			}
 		}
 	],
@@ -560,6 +617,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -685,14 +746,41 @@
 	"expanded_folders":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12/Activity 7"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro_test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro.py",
+		"/Users/ebolotin/Dropbox/TechDev/Python_randomcode/misc3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1f.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1f.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e_a.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e_test.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e.pig",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e_test.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1e.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1c.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P8.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1d.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1b.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1a.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final Project/prob1e.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_3/P1.q",
+		"/Users/ebolotin/Dropbox/TechDev/java/misc.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12/Activity 7/p3.scala",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_12/Activity 7/p1.scala",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/class_materials/MoreJavaSamples/output.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/outputFolder/output.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner_o.java",
@@ -714,7 +802,6 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/Index.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/Activity_6/First.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/JavaApplication1.java",
-		"/Users/ebolotin/Dropbox/TechDev/java/misc.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/Activity_6/First_c.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/Activity_6/test.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_9/RunMe.java",
@@ -760,7 +847,6 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_2.py",
@@ -794,30 +880,7 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/reducer.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_a/reducer.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_a/mapper.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/mapper.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/reducer.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/input.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/mapper.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/reducer.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/input.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/first.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/kaggle-ml/housing_project/housing_project.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/kaggle-ml/ML_Program.py",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/projects.sublime-project",
-		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
-		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/Virtualenv/Virtualenv.sublime-settings",
-		"/Users/ebolotin/Dropbox/TechDev/backup_sublime_settings/Python3_Venv.sublime-build",
-		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/Virtualenv/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/minima-master/LICENSE.txt",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/UW_Assignments/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/UW_Assignments/assignment_7/test_6.txt",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/README.md",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analysis/.ipynb_checkpoints/Directions-checkpoint.ipynb",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/Instructions.ipynb",
-		"/Users/ebolotin/Dropbox/TechDev/Projects/Twitter_Sentiment_Analyzer/ProcessTweets.py"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_a/reducer.py"
 	],
 	"find":
 	{
@@ -835,6 +898,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"time",
 			"thread"
 		],
 		"highlight": true,
@@ -853,24 +917,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/ebolotin/Dropbox/TechDev/java/misc.java",
+					"file": "Final_Project/RouteOptimizer.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 636,
+						"buffer_size": 8500,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								636,
-								636
+								579,
+								579
 							]
 						],
 						"settings":
@@ -881,10 +945,117 @@
 								0.0
 							],
 							"syncScroll": false,
-							"syntax": "Packages/Java/Java.sublime-syntax"
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Final_Project/ro2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								136.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Final_Project/ro3.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1581,
+								1581
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								414.5
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.5,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Final_Project/ro4.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1279,
+								1279
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								324.5
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.5,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -893,8 +1064,113 @@
 			]
 		},
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 4,
+					"file": "Final_Project/input2.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"auto_name": "BldgA : 0 5 7",
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Final_Project/input3.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"auto_name": "BldgA : 0 5 7",
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Final_Project/input4.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"auto_name": "BldgA : 0 5 8 10 11",
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -931,20 +1207,20 @@
 		"rows":
 		[
 			0.0,
-			0.816413634216,
+			0.87545800451,
 			1.0
 		]
 	},
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 268.0
+		"height": 75.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"pinned_build_system": "Packages/User/Python-3.7.sublime-build",
 	"project": "730.sublime-project",
 	"replace":
 	{
@@ -986,7 +1262,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 299.0,
+	"side_bar_width": 365.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
