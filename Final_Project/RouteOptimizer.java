@@ -1,262 +1,189 @@
 import java.util.*;
 import java.io.*;
 public class RouteOptimizer extends Thread {
-	// declare private variables
-	private File inputFile;
-	private String outputFolder;
-	private Integer num_chars;
-	private Scanner input;
-	private PrintWriter output;
-	private TreeMap<String, TreeSet<Integer>> word_indices;
-	private String filename;
-
-	public GlobalRunner(File inputFile, String outputFolder, Integer num_chars) throws Exception {
-		this.num_chars = num_chars;
-		this.inputFile = inputFile;
-		this.outputFolder = outputFolder;
-		// Create treemap to keep word + index pairs
-		this.word_indices = new TreeMap<>();
-		// Create filename string that is stripped of extension
-		// this.filename = inputFile.getName().toString().replaceFirst("[.][^.]+$", "");
-		this.filename = inputFile.getName().toString();	
-	}
-
-	public void run() {
-		try {
-			// Create Scanner object using FileReader
-			input = new Scanner(new FileReader(inputFile));
-		} catch (Exception e) {
-			System.out.println("Exception occurred");
+	public static List<List<Integer>> get_permutations(List<Integer> original) {
+		if (original.size() == 0) {
+			List<List<Integer>> result = new ArrayList<List<Integer>>(); 
+			result.add(new ArrayList<Integer>()); 
+			return result; 
 		}
-
-		// Define variables
-		int totalCharCount = 0;
-		int index = 1;
-
-		// Loop through text file if scanner has another token
-		while(input.hasNext() == true) {
-			// Get next word, convert to lower case, and also get length
-			String word = input.next().toLowerCase();
-			int length = word.length();
-
-			// Increment total character count by word length
-			totalCharCount = totalCharCount + length;
-
-			// if total character count is greater than num_chars
-			if(totalCharCount > num_chars) {
-				// increment index and reset character count to length
-				index = index + 1;
-				totalCharCount = length;
-			}
-
-			// check if word_indices already has word (key)
-			if(word_indices.containsKey(word) == true) {
-				// if so, then get the key value, add index, and update key
-				TreeSet<Integer> existing_val = word_indices.get(word);
-				existing_val.add(index);
-				word_indices.replace(word, existing_val);
-			
-			} else {
-				// if word (key) is new, create new key with index value
-				TreeSet<Integer> current_word_indices = new TreeSet<>();
-				current_word_indices.add(index);
-				word_indices.put(word, current_word_indices);
+		Integer firstElement = original.remove(0);
+		List<List<Integer>> returnValue = new ArrayList<List<Integer>>();
+		List<List<Integer>> permutations = get_permutations(original);
+		for (List<Integer> smallerPermutated : permutations) {
+			for (int index=0; index <= smallerPermutated.size(); index++) {
+				List<Integer> temp = new ArrayList<Integer>(smallerPermutated);
+				temp.add(index, firstElement);
+				returnValue.add(temp);
 			}
 		}
-
-	}
-
-	// Method to return word_indices for file
-	public TreeMap<String, TreeSet<Integer>> getWordIndices() {
-		return word_indices;
-	}
-
-	// Method to return filename
-	public String getFilename() {
-		return filename;
-	}
-
-	public static void updateGlobalIndex(TreeMap<String, ArrayList<TreeSet>> globalIndices, TreeSet fileWordIndex, String word) throws Exception {
-		// If word index for file contains next word
-		if(fileWordIndex != null) {
-			// Check if the global container (globalindices) for indices has the word
-			if(globalIndices.containsKey(word) == true) {
-				// Update global index with word
-				ArrayList<TreeSet> existing_indices = globalIndices.get(word);
-				existing_indices.add(fileWordIndex);
-				globalIndices.replace(word, existing_indices);
-			// else, add ArrayList with word (TreeSet) to global indices
-			} else {
-				ArrayList<TreeSet> newIndex = new ArrayList<>();
-				newIndex.add(fileWordIndex);				
-				globalIndices.put(word, newIndex);
-			}
-		// else if word index does not contain word
-		} else {
-			// Create empty TreeSet
-			TreeSet space = new TreeSet<>();
-			// update existing key in globalword indices with appended Arraylist
-			if(globalIndices.containsKey(word) == true) {
-				ArrayList<TreeSet> existing_indices = globalIndices.get(word);
-				existing_indices.add(space);
-				globalIndices.replace(word, existing_indices);
-			// create new key in globalword indices with new Arraylist
-			} else {				
-				ArrayList<TreeSet> newIndex = new ArrayList<>();
-				newIndex.add(space);				
-				globalIndices.put(word, newIndex);
-			}
-		}
-	}
-
-	// Method to print global word index
-	@SuppressWarnings("unchecked")
-	public synchronized static void printIndex(String outputFolder, TreeMap indicesByFile) throws Exception {
-		// Define output folder
-		File dir = new File(outputFolder);
-		File file_path = new File(dir, "output.txt");
-
-		PrintWriter output = new PrintWriter(new FileWriter(file_path));
-
-		// Create TreeSet to contain unique, ordered list of words
-		// TreeMap<String, ArrayList<Object>> globalIndices = new TreeMap<>();
-		TreeMap<String, ArrayList<TreeSet>> globalIndices = new TreeMap<>();
-		TreeSet<String> allWords = new TreeSet<>();
-		
-		// Printing header
-		output.print("Word, ");
-
-		// Loop through filenames (key) of indicesByFile TreeMap
-		for(Iterator<Map.Entry<String, TreeMap<String, TreeSet>>> entry = indicesByFile.entrySet().iterator(); entry.hasNext();) {
-			Map.Entry<String, TreeMap<String, TreeSet>> file = entry.next();
-			// Logic for comma delimited output
-			String filename = file.getKey();
-			TreeMap<String, TreeSet> file_indices = file.getValue();
-			if(entry.hasNext() == true) {
-				output.print(filename + ", ");
-			} else {
-				output.println(filename);
-			}
-
-			// loop through indices
-			for(Map.Entry<String, TreeSet> word_index : file_indices.entrySet()) {
-				String word = word_index.getKey();
-				allWords.add(word);
-				
-			}
-		}
-
-		// Create collection of file indices, which are TreeMaps
-		Collection file_values = indicesByFile.values();
-
-		// Loop through TreeSet of words
-		for(String word : allWords) {
-			// For every word, loop through each File Index (TreeMap - 3 total) without recursing
-			for(Iterator<TreeMap<String, TreeSet>> i = file_values.iterator(); i.hasNext();) {
-				// Get next TreeMap word index and check if it contains word
-				TreeMap<String, TreeSet> file = i.next();
-				TreeSet fileWordIndex = file.get(word);
-
-				// Update global word index
-				updateGlobalIndex(globalIndices, fileWordIndex, word);
-
-			}
-		}
-
-		// Write word indices to new file
-		for(Map.Entry<String, ArrayList<TreeSet>> word : globalIndices.entrySet()) {
-			// Write current word
-			output.print(word.getKey() + ", ");
-			ArrayList<TreeSet> all_indices = word.getValue();
-
-			// Loop through ArrayList for each word
-			for(Iterator<TreeSet> i = all_indices.iterator(); i.hasNext();) {
-				// Get next file index (TreeSet)
-				TreeSet file_indices = i.next();
-				
-				// If file index (TreeSet) is not empty
-				if(file_indices.isEmpty() == false) {
-					// Loop through integers of file index (TreeSet)
-					for(Iterator<Integer> j = file_indices.iterator(); j.hasNext();) {
-						Integer index = j.next();
-						// Logic for comma delimited output
-						if(j.hasNext() == true) {
-							output.print(index + ":");
-						} else {
-							output.print(index);
-						}
-					}
-				// If file index (TreeSet) is empty, print space
-				} else {
-					output.print("");
-				}
-				// If ArrayList of TreeSets has another index (TreeSet)
-				if(i.hasNext() == true) {
-					output.print(", ");
-				}
-			}
-			// Write newline
-			output.println("");
-		}
-
-	// Close file writer
-	output.close();
+		return returnValue;
 	}
 
 	public static void main(String[] args) throws Exception {
 		// Start timer
 		long startTime = System.currentTimeMillis();
 		
-		// Get input args
-		String inputFolder = args[0];
-		String outputFolder = args[1];
-		int num_chars = Integer.parseInt(args[2]);
-		
-		// Get input file list from input folder
-		File[] inputFiles = new File(inputFolder).listFiles();
+		TreeMap<Integer, ArrayList<Integer>> buildngs_map = new TreeMap<>();
+		TreeMap<Integer, String> buildings_id_map = new TreeMap<>();
+		List<Integer> input_list = new ArrayList<>();
+		File file = new File("input5.txt");
 
-		// count num files
-		int numFiles = 0;
-		for(File file : inputFiles) {
-			if (file.isFile() && file.getName().endsWith(".txt")) {
-				numFiles = numFiles + 1;
+		// read in file
+		try(BufferedReader br = new BufferedReader(new FileReader(file))) {
+			{
+				int building_id = 0;
+				for(String line;  (line = br.readLine()) != null; building_id++ ) {
+					// split file into list by colon
+					ArrayList<String> line_list = new ArrayList<String>(Arrays.asList(line.split(" : ")));
+					String building_name = line_list.get(0);
+
+					// convert (string) travel times to list
+					ArrayList<String> travel_times_str = new ArrayList<String>(Arrays.asList(line_list.get(1).replace("\n", "").split(" ")));
+					ArrayList<Integer> travel_times = new ArrayList<Integer>();
+					
+					// convert travel times to int
+					for(String time : travel_times_str) travel_times.add(Integer.valueOf(time));
+					
+					// write building key + travel times to TreeMap
+					buildngs_map.put(building_id, travel_times);
+					buildings_id_map.put(building_id, building_name);
+					if(building_id != 0) {
+						input_list.add(building_id);
+					}
+				}
 			}
-		}		
 
-		// Create IndexThread
-		GlobalRunner[] agents = new GlobalRunner[numFiles];
-		
-		// Loop through inputfile list and execute wordIndex method
-		int count = 0;
-		for(File file : inputFiles) {
-			if (file.isFile() && file.getName().endsWith(".txt")) {
-				agents[count] = new GlobalRunner(file, outputFolder, num_chars);
-				agents[count].start();
-				count = count + 1;
+		}
+
+		List<List<Integer>> permutations = get_permutations(input_list);
+		TreeMap<Integer, Integer> route_times = new TreeMap<>();
+
+		for (int i = 0; i < permutations.size(); i++) {
+			List<Integer> perm = permutations.get(i);
+			perm.add(0,0);
+			perm.add(0);
+			permutations.set(i, perm);
+		}
+
+		ListIterator<List<Integer>> iterator = permutations.listIterator();
+		while (iterator.hasNext()) {
+			int total_time = 0;
+			int i = iterator.nextIndex();
+			List<Integer> route = iterator.next();
+
+			for (int j = 1; j < route.size(); j++) {
+				int current_building_index = route.get(j-1);
+				int next_building_index = route.get(j);
+				ArrayList<Integer> building_times = buildngs_map.get(current_building_index);
+				int time_to_next_bld = building_times.get(next_building_index);
+				total_time += time_to_next_bld;
+			}
+
+			route_times.put(i, total_time);
+		}
+
+		Integer min_time = route_times.values().stream().min(Integer::compare).get();
+
+		for (Map.Entry<Integer, Integer> entry : route_times.entrySet()) {
+			if (entry.getValue().equals(min_time)) {
+				Integer min_index = entry.getKey();
+				
+				List<Integer> route_indices = permutations.get(min_index);
+				String optimal_route = Integer.toString(min_time) + " ";
+				for (int i = 0; i < route_indices.size()-1; i++) {
+					String next_building = buildings_id_map.get(route_indices.get(i));
+					optimal_route = optimal_route + " " + next_building;
+				}
+				System.out.println(optimal_route);
 			}
 		}
 
-		// create TreeMap of TreeMaps to contain word indices for all input files
-		TreeMap<String, TreeMap> indicesByFile = new TreeMap<String, TreeMap>();
+		// for(List<Integer> perm : permutations) System.out.println(perm);
+		// System.out.println(route_times);
 
-		// Loop through threads, sync them, and print global indices
-		for(GlobalRunner agent : agents) {
-			if(agent.isAlive()) {
-				// wait for agent to finish, then join with current thread
-				agent.join();
-			}
-			// get filename, indices
-			String filename = agent.getFilename();
-			TreeMap file_indices = agent.getWordIndices();
-			indicesByFile.put(filename, file_indices);
-		}
-		
-		// Print all files
-		printIndex(outputFolder, indicesByFile);
-
-		// Stop timer, print elapsed time
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
 		System.out.println(elapsedTime);
 	}	
 }
+
+// CODE GRAVEYARD
+
+	// public ArrayList<ArrayList<Integer>> get_permutations(List<Integer> input_list) throws Exception {
+	// 	ArrayList<Integer> sub_list = new ArrayList<>();
+	// 	List<Integer> perm_list = new ArrayList<>();
+	// 	int list_length = input_list.size();
+
+	// 	if(list_length == 0) {
+	// 		return sub_list;
+	// 	}
+
+	// 	if(list_length == 1) {
+	// 		sub_list.add(input_list.get(0));
+	// 		return sub_list;
+	// 	}
+
+
+	// 	ListIterator<Integer> iterator = input_list.listIterator();
+	// 	while (iterator.hasNext()) {
+	// 		int i = iterator.nextIndex();
+	// 		int parent = iterator.next();
+			
+	// 		List<Integer> children = new ArrayList<>();
+	// 		List<Integer> elements_before = input_list.subList(0, i);
+	// 		List<Integer> elements_after = input_list.subList(i+1, list_length);
+	// 		children.addAll(elements_before);
+	// 		children.addAll(elements_after);		
+			
+	// 		for (List<Integer> c : get_permutations(children)) {
+	// 			List<Integer> parents_list = new ArrayList<>();
+	// 			parents_list.addAll(parent);
+	// 			parents_list.addAll(c);
+	// 			perm_list.add(parents_list);
+	// 		}
+
+	// 	}
+
+	// 	return perm_list;
+
+	// }
+
+
+		// for(List<Integer> perm : permutations) System.out.println(perm);
+		// System.out.println(permutations.size());
+		// swap(input_list, 1, 1);
+
+
+		// List<Integer> combined = new ArrayList<>();
+		// List<Integer> before = input_list.subList(0, 0);
+		// List<Integer> after = input_list.subList(2, 3);
+		// combined.addAll(before);
+		// combined.addAll(after);
+		// testing.add(input_list.subList(0, 1));
+		// testing.add(input_list.subList(0, 1));
+		// System.out.println(before);
+		// System.out.println(after);
+		// System.out.println(combined);
+
+		// for(Map.Entry<String, ArrayList<Integer>> key_value : buildngs_map.entrySet()) {
+		// 	String building_name = key_value.getKey();
+		// 	ArrayList<Integer> travel_times = key_value.getValue();
+		// 	TreeMap<String, Integer> travel_times_verbose = new TreeMap<>(); 
+
+		// 	ListIterator<Integer> iterator = travel_times.listIterator();
+		// 	while (iterator.hasNext()) {
+		// 		int i = iterator.nextIndex();
+		// 		String name = buildings_list.get(i);
+		// 		int time = iterator.next();
+		// 		travel_times_verbose.put(name, time);
+		// 	}
+
+		// 	buildngs_map_verbose.put(building_name, travel_times_verbose);
+
+		// }
+
+		// System.out.println(buildngs_map);
+		// System.out.println(buildings_id_map);
+
+		// Stop timer, print elapsed time

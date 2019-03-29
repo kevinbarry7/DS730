@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
 import sys
-import pprint as pp
 from itertools import permutations
+import timeit
+
+start_time = timeit.default_timer()
 
 buildings_dict = {}
 building_id_map_list = []
@@ -57,3 +59,7 @@ route = ' '.join([str(building_id_map_dict[i]) for i in all_routes[min_time[0]][
 time = min_time[1]
 
 print(f"{time} {route}")
+
+stop_time = timeit.default_timer()
+
+print('Time elapsed: ', stop_time - start_time)

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
+import timeit
 import sys
-import pprint as pp
-from itertools import permutations
+
+start_time = timeit.default_timer()
 
 buildings_dict = {}
 buildings_list = []
@@ -16,6 +17,7 @@ with open(sys.argv[1],"r") as file:
 		buildings_dict[building] = list(map(int, travel_times))
 		buildings_list.append(building)
 
+
 # Transform each list to a dict with building + time pairs.
 for building, travel_times in buildings_dict.items():
 	building_sub_dict = {}
@@ -24,7 +26,6 @@ for building, travel_times in buildings_dict.items():
 		building_sub_dict[buildings_list[i]] = time
 
 	buildings_dict[building] = building_sub_dict
-
 
 # generator to create tree of permutations
 def next_node(parent_building, blist, level = None): # [B, C, D]
@@ -95,3 +96,6 @@ time = min_time[1]
 
 print(f"{time} {route}")
 
+stop_time = timeit.default_timer()
+
+print('Time elapsed: ', stop_time - start_time) 
