@@ -4,32 +4,152 @@
 		"selected_items":
 		[
 			[
-				"bu",
-				"building"
-			],
-			[
 				"buil",
-				"buildings_list"
-			],
-			[
-				"b",
-				"buildings_list"
+				"buildings_dict"
 			],
 			[
 				"build",
 				"buildings_list"
 			],
 			[
-				"buildin",
-				"buildings_dict"
+				"perm",
+				"perm_subset"
+			],
+			[
+				"get_",
+				"get_route_times"
+			],
+			[
+				"num",
+				"num_permutations"
+			],
+			[
+				"indices",
+				"indices_per_thread"
+			],
+			[
+				"bui",
+				"buildings_id_map"
+			],
+			[
+				"time",
+				"time_to_next_bld"
+			],
+			[
+				"next",
+				"next_building_index"
+			],
+			[
+				"curren",
+				"current_building"
+			],
+			[
+				"ARra",
+				"ArrayList"
+			],
+			[
+				"parent",
+				"parents_list"
+			],
+			[
+				"add",
+				"addAll"
+			],
+			[
+				"get",
+				"get_permutations"
+			],
+			[
+				"input",
+				"input_list"
+			],
+			[
+				"I",
+				"Integer"
+			],
+			[
+				"BUIL",
+				"building_id"
 			],
 			[
 				"building",
+				"building_id"
+			],
+			[
+				"diff",
+				"difference"
+			],
+			[
+				"ls",
+				"ls_copy"
+			],
+			[
+				"stat",
+				"start_val"
+			],
+			[
+				"len",
+				"len_list"
+			],
+			[
+				"bu",
 				"buildings_list"
 			],
 			[
+				"Array",
+				"ArrayList"
+			],
+			[
+				"trunc",
+				"trunc_level"
+			],
+			[
+				"nex",
+				"next_node_level"
+			],
+			[
+				"cu",
+				"current_node_level"
+			],
+			[
+				"current",
+				"current_node_level"
+			],
+			[
+				"b",
+				"buildings_dict"
+			],
+			[
+				"min",
+				"min_val"
+			],
+			[
+				"all",
+				"all_routes"
+			],
+			[
+				"buidl",
+				"buildings_list"
+			],
+			[
+				"new",
+				"new_ls"
+			],
+			[
 				"route",
-				"route_string"
+				"route_times"
+			],
+			[
+				"tim",
+				"time_to_next_bld"
+			],
+			[
+				"list",
+				"list_nodes"
+			],
+			[
+				"buildin",
+				"buildings_dict"
 			],
 			[
 				"optima",
@@ -50,14 +170,6 @@
 			[
 				"first",
 				"first_building"
-			],
-			[
-				"min",
-				"min_building"
-			],
-			[
-				"bui",
-				"buildings_list"
 			],
 			[
 				"buildings",
@@ -96,10 +208,6 @@
 				"iowacity"
 			],
 			[
-				"indices",
-				"indicesByFile"
-			],
-			[
 				"file",
 				"fileWordIndices"
 			],
@@ -120,10 +228,6 @@
 				"global_indices"
 			],
 			[
-				"get",
-				"getWordIndices"
-			],
-			[
 				"word",
 				"word_indices"
 			],
@@ -136,16 +240,8 @@
 				"IndexThread"
 			],
 			[
-				"num",
-				"numFiles"
-			],
-			[
 				"inp",
 				"inputFiles"
-			],
-			[
-				"input",
-				"inputFile"
 			],
 			[
 				"total",
@@ -312,14 +408,6 @@
 				"country_months"
 			],
 			[
-				"cu",
-				"current_customer_id"
-			],
-			[
-				"current",
-				"current_month"
-			],
-			[
 				"customer",
 				"customer_id"
 			],
@@ -368,10 +456,6 @@
 				"first_count"
 			],
 			[
-				"next",
-				"next_vowel"
-			],
-			[
 				"vowl",
 				"vowels_present"
 			],
@@ -390,10 +474,6 @@
 			[
 				"vowe",
 				"vowels_upper"
-			],
-			[
-				"curren",
-				"current_month"
 			],
 			[
 				"pr",
@@ -434,86 +514,6 @@
 			[
 				"profan",
 				"profanity"
-			],
-			[
-				"prf",
-				"profanity_list"
-			],
-			[
-				"filter",
-				"filtered_users"
-			],
-			[
-				"excluded_",
-				"excluded_users"
-			],
-			[
-				"sub",
-				"sub_dir"
-			],
-			[
-				"abs",
-				"abs_file_path"
-			],
-			[
-				"clean",
-				"cleaned_streamed_tweets_csv"
-			],
-			[
-				"streamed",
-				"streamed_tweets_json"
-			],
-			[
-				"full_tweets",
-				"full_tweets_json"
-			],
-			[
-				"load",
-				"load_obj"
-			],
-			[
-				"key",
-				"keywords2"
-			],
-			[
-				"full_t",
-				"full_tweets_index"
-			],
-			[
-				"full",
-				"full_tweets"
-			],
-			[
-				"follow",
-				"followers_count"
-			],
-			[
-				"truncate",
-				"truncate_and_transform"
-			],
-			[
-				"max_",
-				"max_users"
-			],
-			[
-				"streamed_tweets_",
-				"streamed_tweets_workout"
-			],
-			[
-				"stream",
-				"streamed_tweets"
-			],
-			[
-				"trun",
-				"truncated_full_tweets_json"
-			],
-			[
-				"truncated_full_tweets",
-				"truncated_full_tweets_csv"
-			],
-			[
-				"_truncate",
-				"_truncate_and_transform"
 			]
 		]
 	},
@@ -523,66 +523,27 @@
 			"file": "Final_Project/RouteOptimizer.java",
 			"settings":
 			{
-				"buffer_size": 8500,
+				"buffer_size": 5785,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Final_Project/ro2.py",
+			"file": "Final_Project/Python_tests/route_optimizer_a.py",
 			"settings":
 			{
-				"buffer_size": 1201,
+				"buffer_size": 2900,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Final_Project/ro3.py",
+			"file": "Final_Project/Python_tests/route_optimizer_b.py",
 			"settings":
 			{
-				"buffer_size": 1582,
+				"buffer_size": 2108,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Final_Project/ro4.py",
-			"settings":
-			{
-				"buffer_size": 1370,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Final_Project/input2.txt",
-			"settings":
-			{
-				"buffer_size": 41,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "BldgA : 0 5 7"
-			}
-		},
-		{
-			"file": "Final_Project/input3.txt",
-			"settings":
-			{
-				"buffer_size": 64,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "BldgA : 0 5 7"
-			}
-		},
-		{
-			"file": "Final_Project/input4.txt",
-			"settings":
-			{
-				"buffer_size": 94,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "BldgA : 0 5 8 10 11"
 			}
 		}
 	],
@@ -747,17 +708,51 @@
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Java_tests",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/route_optimizer_gen.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/route_optimizer_p_v2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm7.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/RouteOptimizer.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/RouteOptimizer2.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_pc.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_gen.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Java_tests/RouteOptimizer2.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/test.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/permutation_func_java.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/comp_test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_perm_v2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_perm_v1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_v1.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/perm5.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/perm6.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/perm.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/perm2.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/perm4.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/perm3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/input4.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/input3.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/input2.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/input5.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro2_tree_visual.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro3.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro2_final_a.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro2_bug.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro2_final.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro2_comp_test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro_tree_visual.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro2.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro_test.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro.py",
 		"/Users/ebolotin/Dropbox/TechDev/Python_randomcode/misc3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/test.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1output.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1f.scala",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e.scala",
@@ -847,44 +842,11 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/intermediate.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_3/TestStateless.java",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/mapper1_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/output.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/user/maria_dev/project_1/output/part_sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/hdfs_test.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/mapper2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/hdfs_test.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/hdfs_test.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/reducer2_01.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/input2.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/test.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_2/input.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/mapper1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/reducer2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/reducer3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/reducer1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/test.py",
-		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/Hermes/Hermes.sublime-settings",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/reducer.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper_v2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_b/mapper.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_2/Task_5/problem_a/reducer.py"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -898,6 +860,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"RouteOptimizer2",
+			"try",
+			"buildngs_map",
+			"<E>",
+			"for",
+			"size",
+			"for",
+			"int",
+			"for",
+			"put",
+			"print",
 			"time",
 			"thread"
 		],
@@ -907,6 +880,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"RouteOptimizer",
+			"buildings_map",
+			"<Integer>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -917,7 +893,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -926,15 +902,51 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8500,
+						"buffer_size": 5785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								579,
-								579
+								4957,
+								4957
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								2964.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2964.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Final_Project/Python_tests/route_optimizer_a.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
 							]
 						],
 						"settings":
@@ -945,7 +957,7 @@
 								0.0
 							],
 							"syncScroll": false,
-							"syntax": "Packages/Java/Java.sublime-syntax",
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
@@ -953,24 +965,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "Final_Project/ro2.py",
+					"buffer": 2,
+					"file": "Final_Project/Python_tests/route_optimizer_b.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1201,
+						"buffer_size": 2108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								831,
-								831
+								1653,
+								1653
 							]
 						],
 						"settings":
@@ -978,7 +990,7 @@
 							"origPos":
 							[
 								0.0,
-								136.0
+								0.0
 							],
 							"syncScroll": false,
 							"syntax": "Packages/Python/Python.sublime-syntax",
@@ -990,197 +1002,22 @@
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Final_Project/ro3.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1581,
-								1581
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								414.5
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.5,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Final_Project/ro4.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1279,
-								1279
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								324.5
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.5,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 4,
-					"file": "Final_Project/input2.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"auto_name": "BldgA : 0 5 7",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Final_Project/input3.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 64,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
-							]
-						],
-						"settings":
-						{
-							"auto_name": "BldgA : 0 5 7",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "Final_Project/input4.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"auto_name": "BldgA : 0 5 8 10 11",
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"layout":
 	{
@@ -1193,21 +1030,21 @@
 				1
 			],
 			[
+				1,
 				0,
-				1,
-				1,
-				2
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.87545800451,
 			1.0
 		]
 	},
@@ -1224,7 +1061,7 @@
 	"project": "730.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 80.0
 	},
 	"save_all_on_build": false,
 	"select_file":

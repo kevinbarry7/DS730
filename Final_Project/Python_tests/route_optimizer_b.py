@@ -36,9 +36,12 @@ def get_permutations(input_list):
 	
 	return perm_list
 
+# get permutations
 perm_list = list(get_permutations([i for i in building_id_map_dict.keys() if i != 0]))
 
 all_routes = []
+
+# add first/last building to each route
 for i in range(len(perm_list)):
 	perm = list(perm_list[i])
 	perm.insert(0,0)
@@ -59,6 +62,8 @@ for i, route in enumerate(all_routes):
 
 		# get time to go from current building to next building
 		time_to_next_bld = buildings_dict[current_building][next_building]
+
+		# increment total time
 		total_time += time_to_next_bld
 	
 	# append route index and time to route_times

@@ -1,13 +1,14 @@
 import java.util.*;
 import java.io.*;
-public class RouteOptimizer extends Thread {
+public class RouteOptimizer2 extends Thread {
 	// private ListIterator<List<Integer>> iterator;
 	private List<List<Integer>> perm_subset;
 	private TreeMap<Integer, ArrayList<Integer>> buildings_map;
 	private TreeMap<Integer, Integer> route_times;
 	private int start;
 	
-	public RouteOptimizer(List<List<Integer>> perm_subset, TreeMap<Integer, ArrayList<Integer>> buildings_map, int start) throws Exception {
+	public RouteOptimizer2(List<List<Integer>> perm_subset, TreeMap<Integer, ArrayList<Integer>> buildings_map, int start) throws Exception {
+		// this.iterator = perm_subset.listIterator();
 		this.buildings_map = buildings_map;
 		this.route_times = new TreeMap<>();
 		this.start = start;
@@ -15,11 +16,10 @@ public class RouteOptimizer extends Thread {
 	}
 
 	public void run() {
-		// for each route in an array, compute the time of the route and assign the route an id. add this to route_times array.
-
 		int i = start;
 		for (List<Integer> route : perm_subset) {
 			int total_time = 0;
+			// System.out.printf("route: %s - i: %d %n", route, i);
 
 			for (int j = 1; j < route.size(); j++) {
 				int current_building_index = route.get(j-1);
@@ -38,18 +38,39 @@ public class RouteOptimizer extends Thread {
 		return route_times;
 	}
 
-	// function to generate permutations
+	@SuppressWarnings("unchecked")
+	public static synchronized void print_optimal_route(TreeMap<Integer, Integer> all_routes, List<List<Integer>> permutations, TreeMap<Integer, String> buildings_id_map) throws Exception {
+		Integer min_time = all_routes.values().stream().min(Integer::compare).get();
+
+		// loop through route_times to get route that was the fastest time
+		for (Map.Entry<Integer, Integer> entry : all_routes.entrySet()) {
+			if (entry.getValue().equals(min_time)) {
+				// get key of min time
+				Integer min_index = entry.getKey();
+				
+				// loop through route indices and get actual route of fastest time
+				List<Integer> route_indices = permutations.get(min_index);
+
+				// Create string to display result
+				String optimal_route = Integer.toString(min_time) + " ";
+				for (int i = 0; i < route_indices.size()-1; i++) {
+					String next_building = buildings_id_map.get(route_indices.get(i));
+					optimal_route = optimal_route + " " + next_building;
+				}
+				System.out.println(optimal_route);
+			}
+		}
+	}
+
 	public static List<List<Integer>> get_permutations(List<Integer> original) {
 		if (original.size() == 0) {
 			List<List<Integer>> result = new ArrayList<List<Integer>>(); 
 			result.add(new ArrayList<Integer>()); 
 			return result; 
 		}
-
 		Integer firstElement = original.remove(0);
 		List<List<Integer>> returnValue = new ArrayList<List<Integer>>();
 		List<List<Integer>> permutations = get_permutations(original);
-
 		for (List<Integer> smallerPermutated : permutations) {
 			for (int index=0; index <= smallerPermutated.size(); index++) {
 				List<Integer> temp = new ArrayList<Integer>(smallerPermutated);
@@ -96,10 +117,8 @@ public class RouteOptimizer extends Thread {
 
 		}
 
-		// get permutations
 		List<List<Integer>> permutations = get_permutations(input_list);
 
-		// loop through permutations and add start/end building
 		for (int i = 0; i < permutations.size(); i++) {
 			List<Integer> perm = permutations.get(i);
 			perm.add(0,0);
@@ -107,7 +126,6 @@ public class RouteOptimizer extends Thread {
 			permutations.set(i, perm);
 		}
 
-		// section start: split the list of permutations into chunks, and assign each chunk to a thread for mapping route to time
 		int num_permutations = permutations.size();
 		int num_threads = 1;
 
@@ -115,7 +133,7 @@ public class RouteOptimizer extends Thread {
 			num_threads = 20;
 		}
 		
-		RouteOptimizer[] agents = new RouteOptimizer[num_threads];
+		RouteOptimizer2[] agents = new RouteOptimizer2[num_threads];
 		
 		int count = 1;
 		int start = 0;
@@ -124,23 +142,25 @@ public class RouteOptimizer extends Thread {
 		int len_test = 0;
 
 		for (int i = 0; i < num_permutations; i++) {
+			// System.out.printf("Count %d - i %d %n", count, i);
 			if(count == perm_per_thread) {
 				if((i + 1) == num_permutations) i += 1;
 				List<List<Integer>> perm_subset = permutations.subList(start, i);
-				agents[thread_id] = new RouteOptimizer(perm_subset, buildings_map, start);
+				// int perm_len = perm_subset.size();
+				// len_test += perm_len;
+				agents[thread_id] = new RouteOptimizer2(perm_subset, buildings_map, start);
 				agents[thread_id].start();
+				// System.out.println(len_test);
 				start = i;
 				count = 0;
 				thread_id += 1;
 			}
 			count += 1;
 		}
-		// section end
 
 		TreeMap<Integer, Integer> all_routes = new TreeMap<>();
 
-		// section start: get mapped list of route times for each thread
-		for(RouteOptimizer agent : agents) {
+		for(RouteOptimizer2 agent : agents) {
 			if(agent.isAlive()) {
 				agent.join();
 			}
@@ -154,25 +174,7 @@ public class RouteOptimizer extends Thread {
 			}
 		}
 
-		// get minimum route time
-		Integer min_time = all_routes.values().stream().min(Integer::compare).get();
-
-		// get route for minimum route time
-		for (Map.Entry<Integer, Integer> entry : all_routes.entrySet()) {
-			if (entry.getValue().equals(min_time)) {
-				Integer min_index = entry.getKey();
-				
-				List<Integer> route_indices = permutations.get(min_index);
-				String optimal_route = Integer.toString(min_time) + " ";
-				
-				// print results
-				for (int i = 0; i < route_indices.size()-1; i++) {
-					String next_building = buildings_id_map.get(route_indices.get(i));
-					optimal_route = optimal_route + " " + next_building;
-				}
-				System.out.println(optimal_route);
-			}
-		}		
+		print_optimal_route(all_routes, permutations, buildings_id_map);		
 
 		long endTime = System.currentTimeMillis();
 		long elapsedTime = endTime - startTime;
