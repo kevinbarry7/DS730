@@ -1,0 +1,2 @@
+use metastore;
+show tables;

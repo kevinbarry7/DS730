@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"start",
+				"start_val"
+			],
+			[
+				"ls",
+				"ls_post"
+			],
+			[
 				"buil",
 				"buildings_dict"
 			],
@@ -78,10 +86,6 @@
 			[
 				"diff",
 				"difference"
-			],
-			[
-				"ls",
-				"ls_copy"
 			],
 			[
 				"stat",
@@ -510,42 +514,11 @@
 			[
 				"model",
 				"model_dict"
-			],
-			[
-				"profan",
-				"profanity"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "Final_Project/RouteOptimizer.java",
-			"settings":
-			{
-				"buffer_size": 5785,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Final_Project/Python_tests/route_optimizer_a.py",
-			"settings":
-			{
-				"buffer_size": 2900,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Final_Project/Python_tests/route_optimizer_b.py",
-			"settings":
-			{
-				"buffer_size": 2108,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -708,21 +681,26 @@
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Java_tests",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm8.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/test.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm7.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm9.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/RouteOptimizer.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/route_optimizer_b.py",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/route_optimizer_a.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/route_optimizer_gen.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/route_optimizer_p_v2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm7.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/RouteOptimizer.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/RouteOptimizer2.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_pc.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/route_optimizer_gen.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src/GlobalRunner.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Java_tests/RouteOptimizer2.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/test.java",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/permutation_func_java.txt",
@@ -836,17 +814,11 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/part-00000.dms",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1/output/part-00000.dms",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_5.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3_3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3_3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/reducer1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_1/sorted.txt"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py"
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -893,116 +865,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Final_Project/RouteOptimizer.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4957,
-								4957
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								2964.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2964.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Final_Project/Python_tests/route_optimizer_a.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2900,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Final_Project/Python_tests/route_optimizer_b.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1653,
-								1653
-							]
-						],
-						"settings":
-						{
-							"origPos":
-							[
-								0.0,
-								0.0
-							],
-							"syncScroll": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -1030,21 +894,21 @@
 				1
 			],
 			[
-				1,
 				0,
-				2,
-				1
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.835693820888,
 			1.0
 		]
 	},
@@ -1061,7 +925,7 @@
 	"project": "730.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 60.0
 	},
 	"save_all_on_build": false,
 	"select_file":

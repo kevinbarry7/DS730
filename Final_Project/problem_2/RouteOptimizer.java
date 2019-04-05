@@ -67,7 +67,9 @@ public class RouteOptimizer extends Thread {
 		TreeMap<Integer, ArrayList<Integer>> buildings_map = new TreeMap<>();
 		TreeMap<Integer, String> buildings_id_map = new TreeMap<>();
 		List<Integer> input_list = new ArrayList<>();
-		File file = new File("input5.txt");
+
+		// Read in file
+		File file = new File("input2.txt");
 
 		// read in file
 		try(BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -160,17 +162,22 @@ public class RouteOptimizer extends Thread {
 		// get route for minimum route time
 		for (Map.Entry<Integer, Integer> entry : all_routes.entrySet()) {
 			if (entry.getValue().equals(min_time)) {
-				Integer min_index = entry.getKey();
-				
+				FileWriter fileWriter = new FileWriter("output2.txt");
+				PrintWriter output = new PrintWriter(fileWriter);
+
+				Integer min_index = entry.getKey();				
 				List<Integer> route_indices = permutations.get(min_index);
-				String optimal_route = Integer.toString(min_time) + " ";
+				String optimal_route = Integer.toString(min_time);
 				
 				// print results
 				for (int i = 0; i < route_indices.size()-1; i++) {
 					String next_building = buildings_id_map.get(route_indices.get(i));
 					optimal_route = optimal_route + " " + next_building;
 				}
-				System.out.println(optimal_route);
+				output.print(optimal_route);
+				output.close();
+				break;
+				// System.out.println(optimal_route);
 			}
 		}		
 
