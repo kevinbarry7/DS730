@@ -6,32 +6,31 @@ date: 'April 4th, 2019'
 fontsize: 12pt
 geometry: margin=2cm
 ---
-## DS 730: Final Project - Problem 3
 
-### Introduction to the data
+# Introduction to the data
 
-The [dataset](http://stat-computing.org/dataexpo/2009/the-data.html) I used for this problem "consists of flight arrival and departure details for all commercial flights within the USA, from October 1987 to April 2008"<sup>[1]</sup>. I originally found this dataset from [hadoop illuminated](https://hadoopilluminated.com/hadoop_illuminated/Public_Bigdata_Sets.html) <sup>[3]</sup>.
+The [dataset](http://stat-computing.org/dataexpo/2009/the-data.html) I used for this problem "consists of flight arrival and departure details for all commercial flights within the USA, from October 1987 to April 2008" \textsuperscript{[1]}. I originally found this dataset from [hadoop illuminated](https://hadoopilluminated.com/hadoop_illuminated/Public_Bigdata_Sets.html) \textsuperscript{[3]}.
 
 All of the source data files are compressed CSV files. There are 22 of them in total. Compressed, their collective size is about 1.6gb. Uncompressed, their size is about 12 gb. I downloaded them onto EC2, uncompressed them, and then transferred these files to S3. The core data was accompanied by supplementary files that I used for mapping (airports and carriers). 
 
-### S3 storage
+# S3 storage
 
 The data is stored on S3 at the following locations:
 
 * **Flight data**: s3a://ebfp3/flight_data/
 * **Supplemental data** (flights and carriers): s3a://ebfp3/supp_data/
 
-### Data sources
-- <sup>[1]</sup> Data source, http://stat-computing.org/dataexpo/2009/the-data.html
-- <sup>[2]</sup> Data info, http://stat-computing.org/dataexpo/2009/
-- <sup>[3]</sup> Hadoop Illuminated, https://hadoopilluminated.com/hadoop_illuminated/Public_Bigdata_Sets.html
+# Data sources
+- [1] Data source, http://stat-computing.org/dataexpo/2009/the-data.html
+- [2] Data info, http://stat-computing.org/dataexpo/2009/
+- [3] Hadoop Illuminated, https://hadoopilluminated.com/hadoop_illuminated/Public_Bigdata_Sets.html
 
-### Questions and Answers
+# Questions and Answers
 
-#### Question 1
+## Question 1
 * Since 1987, which airline the highest frequency of the most departure delays per year? Said differently: which airline was the most late the most often?
 
-#### Answer 1
+## Answer 1
 
 ```
 +--------------------+-----+
@@ -47,10 +46,10 @@ The data is stored on S3 at the following locations:
 
 Southwest Airlines had the highest frequency of "most departure delays per year". The reverse analysis of most frequently having the *least delays per year* was Alaska Airlines.
 
-#### Question 2 
+## Question 2 
 * For each year, which airline flew the least of amount of miles compared to the yearly average (of miles flown by all airlines). Display the year, month, carrier, and % difference.
 
-#### Answer 2
+## Answer 2
 
 ```
 +----+-----+--------------------+------------+
@@ -87,12 +86,12 @@ Southwest Airlines had the highest frequency of "most departure delays per year"
 
 Note that Alaska Airlines also had an underutilized fleet in the 90s. However, this airline changed it's pricing structure to increase competitiveness (by discounting fares drastically), and began to win over market share as a result. 
 
-#### Question 3
+## Question 3
 * For every airport, which months of the year have the most delays with exception of November and December? Delays are defined as CarrierDelay + WeatherDelay + NASDelay + SecurityDelay + LateAircraftDelay.
     * Output the airport, city, month, sum of delays. 
     * Output only top 20 airports
 
-#### Answer 3
+## Answer 3
 
 ```
 +--------------------+-----------------+-----+----------+
@@ -123,11 +122,11 @@ Note that Alaska Airlines also had an underutilized fleet in the 90s. However, t
 
 Clearly, the summer months of June and July are the busiest time of year to travel (with exception of Nov, Dec), as evidenced by the number of delays. Hartsfield Intl. airport, being the busiest airport in the world by passenger traffic, has the most delays.
 
-#### Question 4
+## Question 4
 * What is the most popular route of each airline? Route is defined as a combo of origin and destination. The time frame includes all years present in data. 
 	* Output airline, origin, destination, and count of flights.
 
-#### Answer 4
+## Answer 4
 
 ```
 +--------------------+------+----+-------------+

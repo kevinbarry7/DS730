@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Final_Project/problem_3/p3.scala",
+			"settings":
+			{
+				"buffer_size": 4201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -552,11 +561,15 @@
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
+				"package contr",
+				"Package Control: Remove Package"
 			],
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -680,13 +693,28 @@
 	"expanded_folders":
 	[
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_4/src"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project"
 	],
 	"file_history":
 	[
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1output.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/problem_2/RouteOptimizer.java",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/problem_2/output2.txt",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/problem_1/prob1e.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/prob3.md",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/prob3_to_html.md",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/p3.scala",
+		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/ebolotin/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/prob1f.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/p3.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/p3_a.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/p3_a.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/test.hql",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/hive_notes.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/prob1e_a.scala",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Hadoop_related/prob1e.q",
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/foxyproxy-settings.xml",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm8.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/perm.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/Python_tests/test.py",
@@ -731,7 +759,6 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/ro.py",
 		"/Users/ebolotin/Dropbox/TechDev/Python_randomcode/misc3.py",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/test.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1output.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1f.scala",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1e.scala",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Final_Project/prob1f.q",
@@ -797,24 +824,7 @@
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/answers.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_1/answers.txt",
 		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_3/problem_3.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_2/problem_2.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/comp.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p4.pig.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/part-v002-o000-r-00000_3.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p2.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1_1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/p1.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/baseball.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/sorted.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/input.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/baseball.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/hw_dfs_command.txt",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/test.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/mapper3.py",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/part-00000.dms",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/user/maria_dev/project_1/output/part-00000.dms",
-		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Project_1/problem_3/reducer3.py"
+		"/Users/ebolotin/Dropbox/TechDev/UWL/730/Lesson_4/Activity_4/problem_2/problem_2.txt"
 	],
 	"find":
 	{
@@ -865,8 +875,43 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Final_Project/problem_3/p3.scala",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								986,
+								986
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Scala/Scala.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -908,7 +953,7 @@
 		"rows":
 		[
 			0.0,
-			0.835693820888,
+			0.627618881091,
 			1.0
 		]
 	},
@@ -921,7 +966,11 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/Python-3.7.sublime-build",
+	"output.markdown":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "Packages/MarkdownPreview/Markdown.sublime-build",
 	"project": "730.sublime-project",
 	"replace":
 	{
