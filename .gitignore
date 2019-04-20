@@ -1,3 +1,5 @@
+*.sublime-workspace
+
 Project_2/pigtest/*
 Project_9/class_materials/
 .DS_Store
