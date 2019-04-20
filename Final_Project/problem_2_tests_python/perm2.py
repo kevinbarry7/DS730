@@ -14,7 +14,7 @@ def get_perm(ls, len_list, start = None):
 		swap_val = ls[i]
 		ls_copy[start] = swap_val
 		ls_copy[i] = start_val
-		print(f"Start: {start}, i: {i}")
+		# print(f"Start: {start}, i: {i}")
 		yield ls_copy
 
 		for np in get_perm(ls_copy, len_list, start):

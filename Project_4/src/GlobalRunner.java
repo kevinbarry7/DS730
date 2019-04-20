@@ -29,7 +29,6 @@ public class GlobalRunner extends Thread {
 			System.out.println("Exception occurred");
 		}
 
-		// Define variables
 		int totalCharCount = 0;
 		int index = 1;
 
@@ -42,9 +41,7 @@ public class GlobalRunner extends Thread {
 			// Increment total character count by word length
 			totalCharCount = totalCharCount + length;
 
-			// if total character count is greater than num_chars
 			if(totalCharCount > num_chars) {
-				// increment index and reset character count to length
 				index = index + 1;
 				totalCharCount = length;
 			}
@@ -91,9 +88,8 @@ public class GlobalRunner extends Thread {
 				newIndex.add(fileWordIndex);				
 				globalIndices.put(word, newIndex);
 			}
-		// else if word index does not contain word
+
 		} else {
-			// Create empty TreeSet
 			TreeSet space = new TreeSet<>();
 			// update existing key in globalword indices with appended Arraylist
 			if(globalIndices.containsKey(word) == true) {
@@ -119,11 +115,9 @@ public class GlobalRunner extends Thread {
 		PrintWriter output = new PrintWriter(new FileWriter(file_path));
 
 		// Create TreeSet to contain unique, ordered list of words
-		// TreeMap<String, ArrayList<Object>> globalIndices = new TreeMap<>();
 		TreeMap<String, ArrayList<TreeSet>> globalIndices = new TreeMap<>();
 		TreeSet<String> allWords = new TreeSet<>();
 		
-		// Printing header
 		output.print("Word, ");
 
 		// Loop through filenames (key) of indicesByFile TreeMap
@@ -204,7 +198,6 @@ public class GlobalRunner extends Thread {
 	}
 
 	public static void main(String[] args) throws Exception {
-		// Start timer
 		long startTime = System.currentTimeMillis();
 		
 		// Get input args

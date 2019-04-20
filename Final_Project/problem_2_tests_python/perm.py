@@ -23,7 +23,7 @@ def get_perm(ls, len_list, start = None):
 		for np in get_perm(ls_post, len_list, start):
 			yield np
 
-a = ['A', 'B', 'C']
+a = ['A', 'B', 'C','D','E','F','G','H']
 
 perm_list = []
 len_list = len(a)

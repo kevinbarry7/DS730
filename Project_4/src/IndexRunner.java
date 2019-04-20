@@ -82,7 +82,6 @@ public class IndexRunner extends Thread {
 			for(Iterator<Integer> i = word.getValue().iterator(); i.hasNext();) {
 				int word_index = i.next();
 
-				// Logic for comma delimited output
 				if(i.hasNext() == true) {
 					output.print(word_index + ", ");
 				} else {
@@ -114,7 +113,6 @@ public class IndexRunner extends Thread {
 		for(File file : inputFiles) {
 			if (file.isFile() && file.getName().endsWith(".txt")) {
 				numFiles = numFiles + 1;
-				// System.out.println(numFiles);
 			}
 		}		
 
