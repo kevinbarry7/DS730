@@ -177,7 +177,6 @@ public class RouteOptimizer extends Thread {
 				output.print(optimal_route);
 				output.close();
 				break;
-				// System.out.println(optimal_route);
 			}
 		}		
 
